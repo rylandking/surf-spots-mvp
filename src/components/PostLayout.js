@@ -331,7 +331,10 @@ export default function PostLayout(props) {
                         </header>
                         <SurfSpotSection 
                             titleContraction={titleContraction} 
-                            skillPhrase={skillPhrase} waveDirection={waveDirection} waveType={waveType} />
+                            skillPhrase={skillPhrase} 
+                            waveDirection={waveDirection} 
+                            waveType={waveType} 
+                        />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
                                 {page.markdown_content}
