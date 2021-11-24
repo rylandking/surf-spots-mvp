@@ -80,7 +80,7 @@ export default function PostLayout(props) {
     let value; 
     let isPowerful; 
     let waterTemp
-    let label; 
+    let label;
     let value;
     let isWalkable;
     let isSharky;
