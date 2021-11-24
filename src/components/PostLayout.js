@@ -297,11 +297,11 @@ export default function PostLayout(props) {
 
     	// Set video phrase
 	if (videoLink) {
-		if (video.includes('youtu.be')) {
-			youTubeID = video.split('.be/')[1];
+		if (videoLink.includes('youtu.be')) {
+			youTubeID = videoLink.split('.be/')[1];
 			youTubeID = youTubeID.split('?')[0];
 		} else {
-			youTubeID = video.split('v=')[1];
+			youTubeID = videoLink.split('v=')[1];
 		}
 
 		videoEmbed = `<iframe class="mb-2" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
