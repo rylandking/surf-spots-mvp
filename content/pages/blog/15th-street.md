@@ -78,7 +78,7 @@ isShallow: false
 isCompetitive: false
 lessonsNearby: false
 rentalsNearby: false
-airportName: lorem-ipsum
+airportName: San Diego International Airport
 airportCode: lorem-ipsum
 airportLatLng:
   - lat: 32.731507
