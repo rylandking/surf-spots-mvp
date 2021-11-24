@@ -331,6 +331,9 @@ export default function PostLayout(props) {
     } else if (forecastLink.includes("surf-forecast")) {
         forecastPhrase = "Surf-Forecast.com"
     }
+    } else if (forecastLink.includes("surf-forecast")) {
+        forecastPhrase = "Surf-Forecast.com"
+    }
 
     return (
         <BaseLayout page={page} site={site}>
