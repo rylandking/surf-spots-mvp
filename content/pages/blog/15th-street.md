@@ -6,7 +6,7 @@ surfSpotLatLng:
 mapZoom: 15
 parkingLatLng:
   - lat: 32.961273
-    long: -117.267395
+    lng: -117.267395
 skill: intermediate
 bestSize: 5-7 ft
 bestPeriod: 13-16 sec
