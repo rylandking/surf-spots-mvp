@@ -21,9 +21,7 @@ bottomType:
   value: sand
 isBigWave: false
 isBarrel: 'no'
-waveDirection:
-  label: Right
-  value: right
+waveDirection: both
 waveQuality:
   label: 5 stars
   value: 5
