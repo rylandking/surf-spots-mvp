@@ -10,9 +10,7 @@ parkingLatLng:
 skill: intermediate
 bestSize: 5-7 ft
 bestPeriod: 13-16 sec
-bestTide:
-  label: Low tide
-  value: low
+bestTide: medium
 bestWind:
   label: North
   value: 'N'
