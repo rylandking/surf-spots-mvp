@@ -17,11 +17,8 @@ export default function PostLayout(props) {
     .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
     .join(' ');
     let titleContraction;
-    
-let surfSpotLatLng:
-  - lat: 32.959027
-    long: -117.269313
-mapZoom: 15
+    let surfSpotLatLng:
+    let mapZoom: 15
 parkingLatLng:
   - lat: 32.961273
     long: -117.267395
