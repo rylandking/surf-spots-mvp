@@ -34,6 +34,8 @@ export default function PostLayout(props) {
     let isBarrel;
     let waveDirection = page.waveDirection;
     let waveQuality = page.waveQuality.value;
+    console.log(waveQuality);
+
     let stars;
     let starsDesc;
     let bestBoard;
