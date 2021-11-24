@@ -12,9 +12,7 @@ bestSize: 5-7 ft
 bestPeriod: 13-16 sec
 bestTide: medium
 bestWind: E
-bestSwellDirection:
-  label: North
-  value: 'N'
+bestSwellDirection: S
 waveType:
   label: Beach
   value: beach
