@@ -277,23 +277,23 @@ export default function PostLayout(props) {
     } else if (bestMonths.length === 1) {
         bestMonthsPhrase = `is in ${bestMonths[0]}`;
     } else if (bestMonths.length === 2) {
-        bestMonthsPhrase = `is in ${bestMonths[0]} and ${bestMonths[1]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, and ${bestMonths[1]}`;
     } else if (bestMonths.length === 3) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]} and ${bestMonths[2]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, and ${bestMonths[2]}`;
     } else if (bestMonths.length === 4) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]} and ${bestMonths[3]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, and ${bestMonths[3]}`;
     } else if (bestMonths.length === 5) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]} and ${bestMonths[4]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, and ${bestMonths[4]}`;
     } else if (bestMonths.length === 6) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]} and ${bestMonths[5]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, and ${bestMonths[5]}`;
     } else if (bestMonths.length === 7) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]} and  ${bestMonths[6]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, and  ${bestMonths[6]}`;
     } else if (bestMonths.length === 8) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]} and ${bestMonths[7]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, and ${bestMonths[7]}`;
     } else if (bestMonths.length === 9) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]} and ${bestMonths[8]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]}, and ${bestMonths[8]}`;
     } else if (bestMonths.length === 10) {
-        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]}, ${bestMonths[8]} and ${bestMonths[9]}`;
+        bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]}, ${bestMonths[8]}, and ${bestMonths[9]}`;
     }
 
     // Set video phrase
