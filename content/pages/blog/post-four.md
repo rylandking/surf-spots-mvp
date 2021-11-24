@@ -137,5 +137,5 @@ lessonsNearby: true
 rentalsNearby: true
 airportLatLng:
   - lat: 32.731507
-    long: 0
+    long: -117.200598
 ---
