@@ -297,7 +297,7 @@ export default function PostLayout(props) {
     }
 
     	// Set video phrase
-	if (video) {
+	if (videoLink) {
 		if (video.includes('youtu.be')) {
 			youTubeID = video.split('.be/')[1];
 			youTubeID = youTubeID.split('?')[0];
