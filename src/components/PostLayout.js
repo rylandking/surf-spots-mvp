@@ -195,7 +195,7 @@ export default function PostLayout(props) {
         jan = '';
     }
 
-    if (feb === 100) {
+    if (febRating === 100) {
         feb = 'Febuary';
         bestMonths.push(feb);
     } else {
