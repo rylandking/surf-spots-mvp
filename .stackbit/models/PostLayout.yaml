@@ -168,32 +168,6 @@ fields:
         value: 'sometimes'
       - label: 'No'
         value: 'no'
-  - type: enum
-    name: waveDirection
-    label: ↔️ Wave direction
-    controlType: 'dropdown'
-    options:
-      - label: Right
-        value: 'right'
-      - label: Left
-        value: 'left'
-      - label: Both
-        value: 'both'
-  - type: enum
-    name: waveQuality
-    label: ⭐️ How many stars?
-    controlType: 'dropdown'
-    options:
-      - label: 5 stars
-        value: 5
-      - label: 4 stars
-        value: 4
-      - label: 3 stars
-        value: 3
-      - label: 2 stars
-        value: 2
-      - label: 1 star
-        value: 1
   - type: string
     name: forecastLink
     label: 🌤 Forecast link
