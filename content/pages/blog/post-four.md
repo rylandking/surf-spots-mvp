@@ -121,4 +121,5 @@ bestWind: E
 isBigWave: false
 isBarrel: sometimes
 waveDirection: both
+waveQuality: '3'
 ---
