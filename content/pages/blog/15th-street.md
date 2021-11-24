@@ -82,7 +82,7 @@ airportName: lorem-ipsum
 airportCode: lorem-ipsum
 airportLatLng:
   - lat: 32.731507
-    long: 0
+    long: -117.200598
 localsDescription: >-
   ## Lorem ipsum
 
