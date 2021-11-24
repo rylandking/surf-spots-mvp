@@ -324,7 +324,7 @@ export default function PostLayout(props) {
     }
 
     // Set forecastPhrase
-    if
+    if(forecastLink)
 
     return (
         <BaseLayout page={page} site={site}>
