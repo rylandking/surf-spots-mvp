@@ -15,7 +15,8 @@ export default function SurfSpotSection({
     starsDesc,
     skill,
     bestMonthsPhrase,
-    videoPhrase }) {
+    videoPhrase,
+    forecastLink }) {
 
     useEffect(() => {
         window.onload = function setVideoPhrase() {
