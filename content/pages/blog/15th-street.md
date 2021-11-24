@@ -22,7 +22,7 @@ bottomType:
 isBigWave: false
 isBarrel: 'no'
 waveDirection: both
-waveQuality: '3'
+waveQuality: '4'
 forecastLink: lorem-ipsum
 videoLink: lorem-ipsum
 bestBoard:
