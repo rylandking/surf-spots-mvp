@@ -155,7 +155,7 @@ export default function PostLayout(props) {
         bestTide = 'any';
     }
 
-    // Set stars phrase
+    // Set waveQuality phrase
     if (waveQuality === 1) {
         stars = '1';
         starDesc = 'for the desperate';
