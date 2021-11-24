@@ -84,8 +84,8 @@ export default function PostLayout(props) {
     }
 
     // Set waveDir phrase
-    if (waveDir === 'both') {
-        waveDir = `right and left `;
+    if (waveDirection === 'both') {
+        waveDirection = `right and left `;
     }
 
     return (
