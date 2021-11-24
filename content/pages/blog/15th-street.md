@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: 15th-street
 surfSpotLatLng: []
 mapZoom: 0
 parkingLatLng: []
