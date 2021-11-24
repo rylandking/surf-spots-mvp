@@ -159,7 +159,7 @@ export default function PostLayout(props) {
 	if (stars === 1) {
 		stars = '1';
 		starDesc = 'for the desperate';
-	} else if (stars === '2 Stars') {
+	} else if (stars === 2) {
 		stars = '2';
 		starDesc = 'a good time if you need to get wet';
 	} else if (stars === '3 Stars') {
