@@ -4,7 +4,9 @@ surfSpotLatLng:
   - lat: 32.959027
     long: -117.269313
 mapZoom: 15
-parkingLatLng: []
+parkingLatLng:
+  - lat: 0
+    long: 0
 skill:
   label: Beginner
   value: beginner
