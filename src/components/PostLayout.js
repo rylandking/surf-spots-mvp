@@ -344,7 +344,7 @@ export default function PostLayout(props) {
                 <article className="colors-a px-4 sm:px-8 py-14 lg:py-20">
                     <div className="max-w-screen-2xl mx-auto">
                         <header className="max-w-screen-md mx-auto mb-12 text-center">
-                            {title && <h1 data-sb-field-path="title">{title}</h1>}
+                            {title && <h1 data-sb-field-path="title">{title} Surf</h1>}
                         </header>
                         <SurfSpotSection
                             titleContraction={titleContraction}
