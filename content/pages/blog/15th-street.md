@@ -32,9 +32,7 @@ janRating:
 febRating:
   label: Green
   value: 100
-marRating:
-  label: Green
-  value: 100
+marRating: '60'
 aprRating:
   label: Green
   value: 100
