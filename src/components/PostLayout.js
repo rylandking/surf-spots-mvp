@@ -40,7 +40,7 @@ export default function PostLayout(props) {
     let bestBoard;
 
     let forecastLink = page.forecastLink;
-    let forecastPhrase = 
+    let forecastPhrase;
     let videoLink = page.videoLink;
     let youTubeID;
     let videoEmbed;
