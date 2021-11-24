@@ -120,4 +120,5 @@ bestTide: medium
 bestWind: E
 isBigWave: false
 isBarrel: sometimes
+waveDirection: both
 ---
