@@ -322,6 +322,8 @@ export default function PostLayout(props) {
     `;
     }
 
+    document.getElementById("solider_cost").innerHTML=solider_cost
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
