@@ -5,7 +5,7 @@ import { componentsMap } from '@stackbit/components/dist/components-map';
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    PostLayout: dynamic(() => import('./path/to/component'))
+    PostLayout: dynamic(() => import('./postLayout'))
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
