@@ -155,7 +155,23 @@ export default function PostLayout(props) {
 		tide = 'any';
     }
     
-    
+    	// Set stars phrase
+	if (stars === '1 star') {
+		stars = '1';
+		starDesc = 'for the desperate';
+	} else if (stars === '2 Stars') {
+		stars = '2';
+		starDesc = 'a good time if you need to get wet';
+	} else if (stars === '3 Stars') {
+		stars = '3';
+		starDesc = 'pretty fun';
+	} else if (stars === '4 Stars') {
+		stars = '4';
+		starDesc = 'insanely fun';
+	} else if (stars === '5 Stars') {
+		stars = '5';
+		starDesc = 'world class';
+	}
 
     return (
         <BaseLayout page={page} site={site}>
