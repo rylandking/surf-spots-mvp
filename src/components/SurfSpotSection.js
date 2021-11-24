@@ -17,9 +17,6 @@ export default function SurfSpotSection({
     bestMonthsPhrase,
     videoPhrase }) {
 
-    window.onload = function setVideoPhrase() {
-        document.getElementById('videoPhrase').innerHTML = 'helloooooo';
-    };
     useEffect(() => {
     // Client-side-only code
 })
