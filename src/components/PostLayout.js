@@ -155,7 +155,7 @@ export default function PostLayout(props) {
 		tide = 'any';
     }
     
-    	// Set stars phrase
+    // Set stars phrase
 	if (stars === '1 star') {
 		stars = '1';
 		starDesc = 'for the desperate';
