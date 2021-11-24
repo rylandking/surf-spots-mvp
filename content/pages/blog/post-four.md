@@ -115,4 +115,5 @@ parkingLatLng:
   - lat: 32.961273
     long: -117.267395
 bestSize: 5-7 ft
+bestPeriod: 13-16 sec
 ---
