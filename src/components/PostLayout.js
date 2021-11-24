@@ -77,7 +77,7 @@ export default function PostLayout(props) {
     let isCompetitive;
     let lessonsNearby;
     let rentalsNearby;
-    
+
     let airportName;
     let airportCode;
     let airportLatLng;
