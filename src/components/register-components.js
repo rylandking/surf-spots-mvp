@@ -4,7 +4,8 @@ import { componentsMap } from '@stackbit/components/dist/components-map';
 
 registerComponents({
     // Register all Stackbit components
-    ...componentsMap
+    ...componentsMap,
+*       CtaSection: dynamic(() => import('./path/to/component'))
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
