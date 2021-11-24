@@ -174,10 +174,10 @@ export default function PostLayout(props) {
     if (waveQuality === '1') {
         stars = '1';
         starDesc = 'for the desperate';
-    } else if (waveQuality === 2) {
+    } else if (waveQuality === '2') {
         stars = '2';
         starDesc = 'a good time if you need to get wet';
-    } else if (waveQuality === 3) {
+    } else if (waveQuality === '3') {
         stars = '3';
         starDesc = 'pretty fun';
     } else if (waveQuality === 4) {
