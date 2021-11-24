@@ -99,7 +99,7 @@ export default function PostLayout(props) {
         bestPeriod = '16+ seconds';
     }
 
-    // Set period phrase
+    // Set swell direction
 	if (swellDir === 'W') {
 		swellDir = 'West';
 	} else if (swellDir === 'SW') {
