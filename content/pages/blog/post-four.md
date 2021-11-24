@@ -126,4 +126,5 @@ forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: 'https://youtu.be/VuQ23mhyBV8'
 isPowerful: true
 isWalkable: true
+isSharky: true
 ---
