@@ -82,7 +82,10 @@ export default function PostLayout(props) {
 		skillPhrase = `an ${skill}`;
     }
     
-    
+    	// Set waveDir phrase
+	if (waveDir === 'both') {
+		waveDir = `right and left `;
+	}
 
     return (
         <BaseLayout page={page} site={site}>
