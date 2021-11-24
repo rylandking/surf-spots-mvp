@@ -17,6 +17,93 @@ export default function PostLayout(props) {
     .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
     .join(' ');
     let titleContraction;
+    title: 15th-street
+surfSpotLatLng:
+  - lat: 32.959027
+    long: -117.269313
+mapZoom: 15
+parkingLatLng:
+  - lat: 32.961273
+    long: -117.267395
+skill: intermediate
+bestSize: 5-7 ft
+bestPeriod: 13-16 sec
+bestTide: medium
+bestWind: E
+bestSwellDirection: S
+waveType:
+  label: Beach
+  value: beach
+bottomType:
+  label: Sand
+  value: sand
+isBigWave: false
+isBarrel: 'no'
+waveDirection: both
+waveQuality: '4'
+forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
+videoLink: 'https://youtu.be/VuQ23mhyBV8'
+bestBoard: long-board
+janRating:
+  label: Green
+  value: 100
+febRating:
+  label: Green
+  value: 100
+marRating: '60'
+aprRating: '60'
+mayRating: '80'
+junRating:
+  label: Green
+  value: 100
+julRating:
+  label: Green
+  value: 100
+augRating:
+  label: Green
+  value: 100
+sepRating:
+  label: Green
+  value: 100
+octRating:
+  label: Green
+  value: 100
+novRating:
+  label: Green
+  value: 100
+decRating:
+  label: Green
+  value: 100
+beachComfort:
+  label: Comfortable
+  value: comfortable
+crowdLevel: spread-out
+localismLevel: 'no'
+accessibility:
+  label: Park
+  value: park
+isPowerful: false
+waterTemp:
+  label: Wetsuit
+  value: wetsuit
+isWalkable: false
+isSharky: false
+isEasyToGetWaves: true
+isFarFromShore: false
+isBeginnerFriendly: false
+isUncrowded: false
+isShallow: false
+isCompetitive: false
+lessonsNearby: false
+rentalsNearby: false
+airportName: San Diego International Airport
+airportCode: SAN
+airportLatLng:
+  - lat: 32.731507
+    long: -117.200598
+localsDescription: >-
+  Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.
+
     // Set surf spot contraction
     if (title.endsWith('s')) {
         titleContraction = `${title}'`;
