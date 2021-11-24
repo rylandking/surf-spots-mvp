@@ -80,7 +80,9 @@ lessonsNearby: false
 rentalsNearby: false
 airportName: lorem-ipsum
 airportCode: lorem-ipsum
-airportLatLng: []
+airportLatLng:
+  - lat: 0
+    long: 0
 localsDescription: >-
   ## Lorem ipsum
 
