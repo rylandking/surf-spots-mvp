@@ -340,6 +340,8 @@ export default function PostLayout(props) {
                             bestSize={bestSize}
                             bestWind={bestWind}
                             bestTide={bestTide}
+                            stars={stars}
+                            
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
