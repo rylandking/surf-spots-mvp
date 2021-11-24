@@ -322,7 +322,7 @@ export default function PostLayout(props) {
     `;
     }
 
-    document.getElementById("solider_cost").innerHTML=solider_cost
+    document.getElementById("videoPhrase").innerHTML=videoPhrase
 
     return (
         <BaseLayout page={page} site={site}>
