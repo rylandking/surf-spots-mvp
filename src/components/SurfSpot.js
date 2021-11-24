@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function SurfSpotSection({ annotationPrefix, titleContraction }) {
+export default function SurfSpotSection({ annotationPrefix }) {
     return (
         <div>
             <p>Pipeline surf is an intermediate right reef break.</p>
