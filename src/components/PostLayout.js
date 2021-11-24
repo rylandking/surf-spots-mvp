@@ -20,7 +20,7 @@ export default function PostLayout(props) {
     let surfSpotLatLng;
     let mapZoom;
     let parkingLatLng;
-    
+
     let skill;
     let skillPhrase;
     let bestSize;
@@ -60,6 +60,7 @@ export default function PostLayout(props) {
     let decRating;
     let bestMonths = [];
     let bestMonthsPhrase;
+    
     let beachComfort;
     let crowdLevel;
     let localismLevel;
