@@ -335,8 +335,8 @@ export default function PostLayout(props) {
                             waveDirection={waveDirection} 
                             waveType={waveType}
                             title={title}
-                            bestPeriod,
-                            bestSwellDirection,
+                            bestPeriod={bestPeriod}
+                            bestSwellDirection={bestSwellDirection}
                             bestSize
                         />
                         {page.markdown_content && (
