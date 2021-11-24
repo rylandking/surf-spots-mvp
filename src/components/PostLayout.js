@@ -118,6 +118,19 @@ export default function PostLayout(props) {
         bestSwellDirection = 'Northwest';
     }
 
+    	// Set wave size phrase
+	if (waveSize === '2-4 ft') {
+		waveSize = '2 to 4 feet';
+	} else if (waveSize === '3-5 ft') {
+		waveSize = '3 to 5 feet';
+	} else if (waveSize === '5-7 ft') {
+		waveSize = '5 to 7 feet';
+	} else if (waveSize === '8-10 ft+') {
+		waveSize = '8 to 10 feet and bigger';
+	} else if (waveSize === '8-10+ ft') {
+		waveSize = '8 to 10 feet and bigger';
+	}
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
