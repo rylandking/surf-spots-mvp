@@ -445,9 +445,6 @@ fields:
     name: isBeginnerFriendly
     label: 👧 Is beginner friendly?
   - type: boolean
-    name: isUncrowded
-    label: 🌵 Is uncrowded?
-  - type: boolean
     name: isShallow
     label: 😱 Is shallow?
   - type: boolean
