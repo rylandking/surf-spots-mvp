@@ -346,7 +346,7 @@ export default function PostLayout(props) {
                             skill={skill}
                             bestMonthsPhrase={bestMonthsPhrase}
                             videoPhrase={videoPhrase}
-                            videoPhrase={videoPhrase}
+                            forecastLink={forecastLink}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
