@@ -1,6 +1,8 @@
 ---
 title: 15th-street
-surfSpotLatLng: []
+surfSpotLatLng:
+  - lat: 0
+    long: 0
 mapZoom: 0
 parkingLatLng: []
 skill:
