@@ -165,7 +165,7 @@ export default function PostLayout(props) {
 	} else if (stars === 3) {
 		stars = '3';
 		starDesc = 'pretty fun';
-	} else if (stars === '4 Stars') {
+	} else if (stars === 4) {
 		stars = '4';
 		starDesc = 'super fun';
 	} else if (stars === '5 Stars') {
