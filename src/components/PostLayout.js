@@ -344,6 +344,7 @@ export default function PostLayout(props) {
                             stars={stars}
                             starsDesc={starsDesc}
                             skill={skill}
+                            bestMonthsPhrase={bestMonthsPhrase}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
