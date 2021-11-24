@@ -70,7 +70,7 @@ waterTemp:
   value: wetsuit
 isWalkable: false
 isSharky: false
-isEasyToGetWaves: false
+isEasyToGetWaves: true
 isFarFromShore: false
 isBeginnerFriendly: false
 isUncrowded: false
