@@ -329,15 +329,15 @@ export default function PostLayout(props) {
                         <header className="max-w-screen-md mx-auto mb-12 text-center">
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                         </header>
-                        <SurfSpotSection 
-                            titleContraction={titleContraction} 
-                            skillPhrase={skillPhrase} 
-                            waveDirection={waveDirection} 
+                        <SurfSpotSection
+                            titleContraction={titleContraction}
+                            skillPhrase={skillPhrase}
+                            waveDirection={waveDirection}
                             waveType={waveType}
                             title={title}
                             bestPeriod={bestPeriod}
                             bestSwellDirection={bestSwellDirection}
-                            bestSize
+                            bestSize={bestSize}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
