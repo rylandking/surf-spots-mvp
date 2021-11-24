@@ -81,7 +81,7 @@ rentalsNearby: false
 airportName: lorem-ipsum
 airportCode: lorem-ipsum
 airportLatLng:
-  - lat: 0
+  - lat: 32.731507
     long: 0
 localsDescription: >-
   ## Lorem ipsum
