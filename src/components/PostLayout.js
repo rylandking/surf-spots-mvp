@@ -328,9 +328,8 @@ export default function PostLayout(props) {
         forecastPhrase = "MagicSeaweed"
     } else if (forecastLink.includes("surfline")) {
         forecastPhrase = "Surfline"
-    }
-    } else if (forecastLink.includes("surfline")) {
-        forecastPhrase = "Surfline"
+    } else if (forecastLink.includes("surf-forecast")) {
+        forecastPhrase = "Surf-Forecast"
     }
 
     return (
