@@ -310,7 +310,7 @@ export default function PostLayout(props) {
         videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
 
         videoPhrase = `
-            <p class="mb-2">Watch this video of ${titleContraction} surf to get a better feel for what the waves are like.</p>
+            <p class="mb-4">Watch this video of ${titleContraction} surf to get a better feel for what the waves are like.</p>
             ${videoEmbed}
             <p class="mb-2"> Remember, this is just one day. Always check the surf report before going. You can <a href="${videoSearchURL}" target="_blank">watch other videos of ${titleContraction} surf here</a>.</p>
         `;
