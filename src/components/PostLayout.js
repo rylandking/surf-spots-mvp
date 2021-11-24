@@ -80,7 +80,9 @@ export default function PostLayout(props) {
 		skillPhrase = `a ${skill}`;
 	} else {
 		skillPhrase = `an ${skill}`;
-	}
+    }
+    
+    
 
     return (
         <BaseLayout page={page} site={site}>
