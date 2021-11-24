@@ -48,7 +48,7 @@ aug: 100
 swellDir: S
 sitDownRestaurants: ''
 sharky: ''
-spotNote: >-
+localsDescription: >-
   Super fun intermediate beach break waves with a killer beach and grassy area
   for families and friends. One of those spots that you can almost always have
   fun at at any time of the year. Go with a bit of caution in the winter time,
