@@ -366,7 +366,7 @@ export default function PostLayout(props) {
                             forecastLink={forecastLink}
                             forecastPhrase={forecastPhrase}
                             surfSpotLng={surfSpotLng}
-                            
+                            surfSpotLat={surfSpotLat}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
