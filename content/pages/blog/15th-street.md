@@ -2,7 +2,7 @@
 title: 15th-street
 surfSpotLatLng:
   - lat: 0
-    long: 0
+    long: -117.269313
 mapZoom: 0
 parkingLatLng: []
 skill:
