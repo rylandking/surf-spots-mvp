@@ -20,7 +20,9 @@ export default function SurfSpotSection({
     window.onload = function setVideoPhrase() {
         document.getElementById('videoPhrase').innerHTML = 'helloooooo';
     };
-    setVideoPhrase();
+    useEffect(() => {
+    // Client-side-only code
+})
     return (
         <div>
             <p className="mb-2">{titleContraction} surf is {skillPhrase} {waveDirection} {waveType} break.</p>
