@@ -21,83 +21,83 @@ export default function PostLayout(props) {
     let mapZoom;
     let parkingLatLng;
   
-    let skill; intermediate
-    let bestSize; 5-7 ft
-    let bestPeriod; 13-16 sec
-    let bestTide; medium
-    let bestWind; E
-    let bestSwellDirection; S
-    let waveType;
-    let label; Beach
-    let value; beach
-    let bottomType;
-    let label; Sand
-    let value; sand
-    let isBigWave; false
-    let isBarrel; 'no'
-    let waveDirection; both
-    let waveQuality; '4'
-    let forecastLink; 'https;//magicseaweed.com/Del-Mar-Surf-Report/3707/'
-    let videoLink; 'https;//youtu.be/VuQ23mhyBV8'
-    let bestBoard; long-board
-    let janRating;
-    let label; Green
-    let value; 100
-    let febRating;
-    let label; Green
-    let value; 100
-    let marRating; '60'
-    let aprRating; '60'
-    let mayRating; '80'
-    let junRating;
-    let label; Green
-    let value; 100
-    let julRating;
-    let label; Green
-    let value; 100
-    let augRating;
-    let label; Green
-    let value; 100
-    let sepRating;
-    let label; Green
-    let value; 100
-    let octRating;
-    let label; Green
-    let value; 100
-    let novRating;
-    let label; Green
-    let value; 100
-    let decRating;
-    let label; Green
-    let value; 100
-    let beachComfort;
-    let label; Comfortable
-    let value; comfortable
-    let crowdLevel; spread-out
-    let localismLevel; 'no'
-    let accessibility;
-    let label; Park
-    let value; park
-    let isPowerful; false
-    let waterTemp;
-    let label; Wetsuit
-    let value; wetsuit
-    let isWalkable; false
-    let isSharky; false
-    let isEasyToGetWaves; true
-    let isFarFromShore; false
-    let isBeginnerFriendly; false
-    let isUncrowded; false
-    let isShallow; false
-    let isCompetitive; false
-    let lessonsNearby; false
-    let rentalsNearby; false
-    let airportName; San Diego International Airport
-    let airportCode; SAN
-    let airportLatLng;
-    let - lat; 32.731507
-        let long; -117.200598
-    let localsDescription; >-
+    let skill; 
+    let bestSize; 5-7 
+    let bestPeriod; 13-16 
+    let bestTide; 
+    let bestWind; 
+    let bestSwellDirection; 
+    let waveType
+    let label; 
+    let value; 
+    let bottomType
+    let label; 
+    let value; 
+    let isBigWave; 
+    let isBarrel; 'no
+    let waveDirection; 
+    let waveQuality; '4
+    let forecastLink; 'https;//magicseaweed.com/Del-Mar-Surf-Report/3707
+    let videoLink; 'https;//youtu.be/VuQ23mhyBV8
+    let bestBoard; long-
+    let janRating
+    let label; 
+    let value; 
+    let febRating
+    let label; 
+    let value; 
+    let marRating; '60
+    let aprRating; '60
+    let mayRating; '80
+    let junRating
+    let label; 
+    let value; 
+    let julRating
+    let label; 
+    let value; 
+    let augRating
+    let label; 
+    let value; 
+    let sepRating
+    let label; 
+    let value; 
+    let octRating
+    let label; 
+    let value; 
+    let novRating
+    let label; 
+    let value; 
+    let decRating
+    let label; 
+    let value; 
+    let beachComfort
+    let label; 
+    let value; 
+    let crowdLevel; spread-
+    let localismLevel; 'no
+    let accessibility
+    let label; 
+    let value; 
+    let isPowerful; 
+    let waterTemp
+    let label; 
+    let value; 
+    let isWalkable; 
+    let isSharky; 
+    let isEasyToGetWaves; 
+    let isFarFromShore; 
+    let isBeginnerFriendly; 
+    let isUncrowded; 
+    let isShallow; 
+    let isCompetitive; 
+    let lessonsNearby; 
+    let rentalsNearby; 
+    let airportName; San Diego International 
+    let airportCode; 
+    let airportLatLng
+    let - lat; 32.
+        let long; -117.
+    let localsDescription; 
     Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.
 
     // Set surf spot contraction
