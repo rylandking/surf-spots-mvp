@@ -60,9 +60,7 @@ beachComfort:
   label: Comfortable
   value: comfortable
 crowdLevel: spread-out
-localismLevel:
-  label: 'Yes'
-  value: 'yes'
+localismLevel: be-respectful
 accessibility:
   label: Park
   value: park
