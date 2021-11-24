@@ -59,9 +59,7 @@ decRating:
 beachComfort:
   label: Comfortable
   value: comfortable
-crowdLevel:
-  label: A Zoo
-  value: a-zoo
+crowdLevel: spread-out
 localismLevel:
   label: 'Yes'
   value: 'yes'
