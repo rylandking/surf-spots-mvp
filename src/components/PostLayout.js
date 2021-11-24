@@ -3,8 +3,8 @@ import classNames from 'classnames';
 import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
-import getPageUrlPath from '@stackbit/utils/get-page-url-path';
-import Link from '@stackbit/utils/link';
+import getPageUrlPath from '@stackbit/utils/dist/get-page-url-path';
+import Link from '@stackbit/utils/dist/link';
 
 export default function LatestPostsSection(props) {
     const cssId = props.elementId || null;
