@@ -3,6 +3,7 @@ import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import { getBaseLayoutComponent } from '@stackbit/components/dist/utils/base-layout';
 import { getComponent } from '@stackbit/components/dist/components-registry';
+import SurfSpotSection from './SurfSpotSection';
 
 export default function PostLayout(props) {
     const { page, site } = props;
@@ -25,6 +26,7 @@ export default function PostLayout(props) {
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                             {page.author && postAuthor(page.author)}
                         </header>
+                        <SurfSpotSection />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
                                 {page.markdown_content}
