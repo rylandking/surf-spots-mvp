@@ -135,4 +135,7 @@ isShallow: true
 isCompetitive: true
 lessonsNearby: true
 rentalsNearby: true
+airportLatLng:
+  - lat: 0
+    long: 0
 ---
