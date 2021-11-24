@@ -35,16 +35,16 @@ export default function PostLayout(props) {
     let waveQuality;
     let stars;
     let starsDesc;
-        let bestBoard;
+    let bestBoard;
 
     let forecastLink;
     let videoLink;
     let video = data.video;
-	let youTubeID;
-	let videoEmbed;
-	let videoSearchURL;
+    let youTubeID;
+    let videoEmbed;
+    let videoSearchURL;
     let videoPhrase;
-    
+
     let janRating;
     let febRating;
     let marRating;
