@@ -365,7 +365,7 @@ export default function PostLayout(props) {
                             forecastLink={forecastLink}
                             forecastPhrase={forecastPhrase}
                             directionsLink={directionsLink}
-                            directionsLink={directionsLink}
+                            localsDescription={localsDescription}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
