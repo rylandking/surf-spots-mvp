@@ -50,9 +50,9 @@ export default function PostLayout(props) {
     let beachComfort;
     let crowdLevel;
     let localismLevel;
-    let accessibility
+    let accessibility;
     let isPowerful;
-    let waterTemp
+    let waterTemp;
     let isWalkable;
     let isSharky;
     let isEasyToGetWaves;
