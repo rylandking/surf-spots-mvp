@@ -20,9 +20,7 @@ bottomType:
   label: Sand
   value: sand
 isBigWave: false
-isBarrel:
-  label: 'Yes'
-  value: 'yes'
+isBarrel: 'no'
 waveDirection:
   label: Right
   value: right
