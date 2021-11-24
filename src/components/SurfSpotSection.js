@@ -19,7 +19,7 @@ export default function SurfSpotSection({
 
     useEffect(() => {
         window.onload = function setVideoPhrase() {
-            document.getElementById('videoPhrase').innerHTML = 'helloooooo';
+            document.getElementById('videoPhrase').innerHTML = videoPhrase;
         };
     })
     return (
