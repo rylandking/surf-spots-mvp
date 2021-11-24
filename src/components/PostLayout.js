@@ -28,11 +28,9 @@ export default function PostLayout(props) {
     let bestWind; 
     let bestSwellDirection; 
     let waveType
-    let label; 
-    let value; 
+    let label;  
     let bottomType
-    let label; 
-    let value; 
+    let label;  
     let isBigWave; 
     let isBarrel; 'no
     let waveDirection; 
@@ -41,47 +39,35 @@ export default function PostLayout(props) {
     let videoLink; 'https;//youtu.be/VuQ23mhyBV8
     let bestBoard; long-
     let janRating
-    let label; 
-    let value; 
+    let label;  
     let febRating
-    let label; 
-    let value; 
+    let label;  
     let marRating; '60
     let aprRating; '60
     let mayRating; '80
     let junRating
-    let label; 
-    let value; 
+    let label;  
     let julRating
-    let label; 
-    let value; 
+    let label;  
     let augRating
-    let label; 
-    let value; 
+    let label;  
     let sepRating
-    let label; 
-    let value; 
+    let label;  
     let octRating
-    let label; 
-    let value; 
+    let label;  
     let novRating
-    let label; 
-    let value; 
+    let label;  
     let decRating
-    let label; 
-    let value; 
+    let label;  
     let beachComfort
-    let label; 
-    let value; 
+    let label;  
     let crowdLevel; spread-
     let localismLevel; 'no
     let accessibility
-    let label; 
-    let value; 
+    let label;  
     let isPowerful; 
     let waterTemp
     let label;
-    let value;
     let isWalkable;
     let isSharky;
     let isEasyToGetWaves;
