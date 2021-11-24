@@ -111,4 +111,7 @@ surfSpotLatLng:
   - lat: 32.959027
     long: -117.269313
 mapZoom: 15
+parkingLatLng:
+  - lat: 0
+    long: 0
 ---
