@@ -131,7 +131,7 @@ export default function PostLayout(props) {
 		bestSize = '8 to 10 feet and bigger';
     }
     
-    	// Set wind phrase
+    // Set wind phrase
 	if (windDir === 'W') {
 		windDir = 'West';
 	} else if (windDir === 'SW') {
