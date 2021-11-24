@@ -24,7 +24,7 @@ export default function PostLayout(props) {
     let skill = page.skill;
     let skillPhrase;
     let bestSize = page.bestSize;
-    let bestPeriod;
+    let bestPeriod = bestPeriod;
     let bestTide = page.bestTide;
     let bestWind = page.bestWind;
     let bestSwellDirection = page.bestSwellDirection;
