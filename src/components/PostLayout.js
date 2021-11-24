@@ -36,7 +36,7 @@ export default function PostLayout(props) {
     let forecastLink;
     let videoLink;
     let bestBoard;
-        let janRating
+    let janRating
     let febRating
     let marRating;
     let aprRating;
