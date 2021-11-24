@@ -6,8 +6,9 @@ export default function SurfSpotSection({
     waveDirection,
     waveType,
     title,
-bestPeriod,
-bestSwellDirection }) {
+    bestPeriod,
+    bestSwellDirection,
+    bestSize }) {
     return (
         <div>
             <p>{titleContraction} surf is {skillPhrase} {waveDirection} {waveType} break.</p>
