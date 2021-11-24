@@ -17,7 +17,8 @@ export default function PostLayout(props) {
         .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
         .join(' ');
     let titleContraction;
-    let surfSpotLatLng = page.surfSpotLatLng;
+    let surfSpotLatLng = page.surfSpotLatLng.lat;
+    let surfSpotLatLng = page.surfSpotLatLng.lng;
     console.log(page);
     
     let mapZoom = page.mapZoom;
