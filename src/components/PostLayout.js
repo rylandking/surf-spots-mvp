@@ -40,7 +40,7 @@ export default function PostLayout(props) {
 
     let forecastLink;
     let videoLink;
-    let video = data.video;
+    let video;
     let youTubeID;
     let videoEmbed;
     let videoSearchURL;
