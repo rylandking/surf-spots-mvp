@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-export default function SurfSpotSection({ titleContraction}) {
+export default function SurfSpotSection({ titleContraction }) {
     return (
         <div>
-            <p>Pipeline surf is an intermediate right reef break.</p>
+            <p>{titleContraction} surf is an intermediate right reef break.</p>
         </div >
     )
 }
