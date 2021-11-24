@@ -9,9 +9,7 @@ parkingLatLng:
     long: -117.267395
 skill: intermediate
 bestSize: 5-7 ft
-bestPeriod:
-  label: 7-10 seconds
-  value: 7-10 sec
+bestPeriod: 13-16 sec
 bestTide:
   label: Low tide
   value: low
