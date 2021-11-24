@@ -28,7 +28,7 @@ export default function PostLayout(props) {
     let bestTide = page.bestTide;
     let bestWind = page.bestWind;
     let bestSwellDirection = page.bestSwellDirection;
-    let waveType
+    let waveType = page.wave
     let bottomType
     let isBigWave;
     let isBarrel;
