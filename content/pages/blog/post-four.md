@@ -109,5 +109,5 @@ bottomSections: []
 layout: PostLayout
 surfSpotLatLng:
   - lat: 0
-    long: 0
+    long: -117.269313
 ---
