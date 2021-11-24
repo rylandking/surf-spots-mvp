@@ -151,27 +151,27 @@ export default function PostLayout(props) {
     }
 
     // Set tide phrase
-	if (tide === 'all') {
-		tide = 'any';
+    if (tide === 'all') {
+        tide = 'any';
     }
-    
+
     // Set stars phrase
-	if (stars === 1) {
-		stars = '1';
-		starDesc = 'for the desperate';
-	} else if (stars === 2) {
-		stars = '2';
-		starDesc = 'a good time if you need to get wet';
-	} else if (stars === 3) {
-		stars = '3';
-		starDesc = 'pretty fun';
-	} else if (stars === 4) {
-		stars = '4';
-		starDesc = 'super fun';
-	} else if (stars === 5) {
-		stars = '5';
-		starDesc = 'world class';
-	}
+    if (stars === 1) {
+        stars = '1';
+        starDesc = 'for the desperate';
+    } else if (stars === 2) {
+        stars = '2';
+        starDesc = 'a good time if you need to get wet';
+    } else if (stars === 3) {
+        stars = '3';
+        starDesc = 'pretty fun';
+    } else if (stars === 4) {
+        stars = '4';
+        starDesc = 'super fun';
+    } else if (stars === 5) {
+        stars = '5';
+        starDesc = 'world class';
+    }
 
     return (
         <BaseLayout page={page} site={site}>
