@@ -20,8 +20,7 @@ export default function PostLayout(props) {
     let surfSpotLatLng;
     let mapZoom;
     let parkingLatLng;
-  - lat: 32.961273
-    long: -117.267395
+  
 skill: intermediate
 bestSize: 5-7 ft
 bestPeriod: 13-16 sec
