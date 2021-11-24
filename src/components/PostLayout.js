@@ -33,6 +33,8 @@ export default function PostLayout(props) {
     let isBarrel;
     let waveDirection;
     let waveQuality;
+    let stars;
+    let starsDesc;
     let forecastLink;
     let videoLink;
     let bestBoard;
