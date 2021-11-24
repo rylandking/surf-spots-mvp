@@ -17,10 +17,9 @@ export default function SurfSpotSection({
     bestMonthsPhrase,
     videoPhrase }) {
 
-    window.onload = function what(){
+    window.onload = function what() {
         document.getElementById('videoPhrase').innerHTML = 'hi';
     };
-    document.getElementById("videoPhrase").innerHTML = videoPhrase;
     return (
         <div>
             <p className="mb-2">{titleContraction} surf is {skillPhrase} {waveDirection} {waveType} break.</p>
