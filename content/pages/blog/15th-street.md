@@ -22,9 +22,7 @@ bottomType:
 isBigWave: false
 isBarrel: 'no'
 waveDirection: both
-waveQuality:
-  label: 5 stars
-  value: 5
+waveQuality: '3'
 forecastLink: lorem-ipsum
 videoLink: lorem-ipsum
 bestBoard:
