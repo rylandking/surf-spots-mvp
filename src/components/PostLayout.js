@@ -18,6 +18,8 @@ export default function PostLayout(props) {
         .join(' ');
     let titleContraction;
     let surfSpotLatLng = page.surfSpotLatLng;
+    console.log(page);
+    
     let mapZoom = page.mapZoom;
     let parkingLatLng = page.parkingLatLng;
 
