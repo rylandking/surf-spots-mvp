@@ -150,7 +150,7 @@ export default function PostLayout(props) {
         bestWind = 'Northwest';
     }
 
-    	// Set tide phrase
+    // Set tide phrase
 	if (tide === 'all') {
 		tide = 'any';
 	}
