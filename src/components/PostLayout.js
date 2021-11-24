@@ -50,8 +50,8 @@ export default function PostLayout(props) {
     let octRating;
     let novRating;
     let decRating;
-    	let bestMonths = [];
-	let bestMonthsPhrase;
+    let bestMonths = [];
+    let bestMonthsPhrase;
     let beachComfort;
     let crowdLevel;
     let localismLevel;
