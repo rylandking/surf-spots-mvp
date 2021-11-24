@@ -88,7 +88,7 @@ export default function PostLayout(props) {
         waveDirection = `right and left `;
     }
 
-    	// Set period phrase
+    // Set period phrase
 	if (period === '7-10 sec') {
 		period = '7 to 10 second';
 	} else if (period === '10-13 sec') {
