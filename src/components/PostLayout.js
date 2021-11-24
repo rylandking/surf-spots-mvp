@@ -151,8 +151,8 @@ export default function PostLayout(props) {
     }
 
     // Set tide phrase
-    if (tide === 'all') {
-        tide = 'any';
+    if (bestTide === 'all') {
+        bestTide = 'any';
     }
 
     // Set stars phrase
