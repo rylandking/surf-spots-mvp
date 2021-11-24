@@ -18,7 +18,7 @@ export default function SurfSpotSection({
     videoPhrase }) {
 
     window.onload = function what() {
-        document.getElementById('videoPhrase').innerHTML = 'hi';
+        document.getElementById('videoPhrase').innerHTML = 'helloooooo';
     };
     return (
         <div>
