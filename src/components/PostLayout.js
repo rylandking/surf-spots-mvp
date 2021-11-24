@@ -17,7 +17,6 @@ export default function PostLayout(props) {
                     <div className="max-w-screen-2xl mx-auto">
                         <header className="max-w-screen-md mx-auto mb-12 text-center">
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
-                            {page.author && postAuthor(page.author)}
                         </header>
                         <SurfSpotSection />
                         {page.markdown_content && (
