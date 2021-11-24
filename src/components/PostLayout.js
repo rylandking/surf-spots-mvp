@@ -45,15 +45,3 @@ export default function PostLayout(props) {
         </BaseLayout>
     );
 }
-
-function postAuthor(author) {
-    return (
-        <div className="text-lg mt-6">
-            By{' '}
-            <span data-sb-field-path="author">
-                {author.firstName && <span data-sb-field-path=".firstName">{author.firstName}</span>}{' '}
-                {author.lastName && <span data-sb-field-path=".lastName">{author.lastName}</span>}
-            </span>
-        </div>
-    );
-}
