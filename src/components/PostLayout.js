@@ -333,6 +333,9 @@ export default function PostLayout(props) {
     } else if (forecastLink.includes("shaka")) {
         forecastPhrase = "Shaka Bay"
     }
+    } else if (forecastLink.includes("shaka")) {
+        forecastPhrase = "Shaka Bay"
+    }
 
     return (
         <BaseLayout page={page} site={site}>
