@@ -23,7 +23,7 @@ isBigWave: false
 isBarrel: 'no'
 waveDirection: both
 waveQuality: '4'
-forecastLink: lorem-ipsum
+forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: lorem-ipsum
 bestBoard:
   label: Short Board
