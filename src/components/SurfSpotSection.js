@@ -10,6 +10,7 @@ export default function SurfSpotSection({
     bestSwellDirection,
     bestSize,
     bestWind,
+    bestTide,
     stars,
     starsDesc }) {
     return (
