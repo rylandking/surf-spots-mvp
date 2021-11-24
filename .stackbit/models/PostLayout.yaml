@@ -216,7 +216,7 @@ fields:
       - label: Gun
         value: gun
   - type: enum
-    name: janRating
+    name: jan
     label: 📅 How good is January?
     controlType: 'dropdown'
     options:
@@ -229,7 +229,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: febRating
+    name: feb
     label: 📅 How good is February?
     controlType: 'dropdown'
     options:
@@ -242,7 +242,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: marRating
+    name: mar
     label: 📅 How good is March?
     controlType: 'dropdown'
     options:
@@ -255,7 +255,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: aprRating
+    name: apr
     label: 📅 How good is April?
     controlType: 'dropdown'
     options:
@@ -268,7 +268,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: mayRating
+    name: may
     label: 📅 How good is May?
     controlType: 'dropdown'
     options:
@@ -281,7 +281,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: junRating
+    name: jun
     label: 📅 How good is June?
     controlType: 'dropdown'
     options:
@@ -294,7 +294,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: julRating
+    name: jul
     label: 📅 How good is July?
     controlType: 'dropdown'
     options:
@@ -307,7 +307,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: augRating
+    name: aug
     label: 📅 How good is August?
     controlType: 'dropdown'
     options:
@@ -320,7 +320,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: sepRating
+    name: sep
     label: 📅 How good is September?
     controlType: 'dropdown'
     options:
@@ -333,7 +333,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: octRating
+    name: oct
     label: 📅 How good is October?
     controlType: 'dropdown'
     options:
@@ -346,7 +346,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: novRating
+    name: nov
     label: 📅 How good is November?
     controlType: 'dropdown'
     options:
@@ -359,7 +359,7 @@ fields:
       - label: 'Red'
         value: 40
   - type: enum
-    name: decRating
+    name: dec
     label: 📅 How good is December?
     controlType: 'dropdown'
     options:
