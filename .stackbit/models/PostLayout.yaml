@@ -458,6 +458,24 @@ fields:
   - type: boolean
     name: rentalsNearby
     label: 🏡 Surf rentals nearby?
+  - type: string
+    name: airportName
+    label: 📇 Airport name
+  - type: string
+    name: airportCode
+    label: 🔐 Airport code
+  - type: list
+    name: airportLatLng
+    label: ✈️ Airport Coordinates
+    items:
+      type: object
+      fields:
+        - type: number
+          name: lat
+          label: Latitude
+        - type: number
+          name: long
+          label: Longitude    
   - type: markdown
     name: localsDescription
     label: 📝 Local description
