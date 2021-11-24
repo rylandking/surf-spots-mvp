@@ -20,6 +20,7 @@ export default function PostLayout(props) {
     let surfSpotLatLng;
     let mapZoom;
     let parkingLatLng;
+    
     let skill;
     let skillPhrase;
     let bestSize;
