@@ -172,19 +172,19 @@ export default function PostLayout(props) {
     // Set waveQuality phrase
     if (waveQuality === '1') {
         stars = '1';
-        starDesc = 'for the desperate';
+        starsDesc = 'for the desperate';
     } else if (waveQuality === '2') {
         stars = '2';
-        starDesc = 'a good time if you need to get wet';
+        starsDesc = 'a good time if you need to get wet';
     } else if (waveQuality === '3') {
         stars = '3';
-        starDesc = 'pretty fun';
+        starsDesc = 'pretty fun';
     } else if (waveQuality === '4') {
         stars = '4';
-        starDesc = 'super fun';
+        starsDesc = 'super fun';
     } else if (waveQuality === '5') {
         stars = '5';
-        starDesc = 'world class';
+        starsDesc = 'world class';
     }
 
     // Set best months phrase
