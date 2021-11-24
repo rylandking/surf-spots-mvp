@@ -1,35 +1,484 @@
 name: PostLayout
 label: Post
 layout: PostLayout
-thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 fields:
   - type: string
     name: title
-    label: Title
-    default: Post Title
-    required: true
-  - type: date
-    name: date
-    label: Date
-    required: true
-  - type: reference
-    name: author
-    label: Author
-    models:
-      - Person
+    label: 🆔 Surf spot name
+  - type: list
+    name: surfSpotLatLng
+    label: 📍 Surf Spot Coordinates
+    items:
+      type: object
+      fields:
+        - type: number
+          name: lat
+          label: Latitude
+        - type: number
+          name: long
+          label: Longitude    
+  - type: number
+    name: mapZoom
+    label: 🔎 Map zoom
   - type: string
-    name: excerpt
-    label: Excerpt
-    default: This is the excerpt of your blog post visible in the post feed or featured posts.
-  - type: model
-    name: featuredImage
-    label: Featured image
-    models:
-      - ImageBlock
-    default:
-      type: ImageBlock
-      url: https://assets.stackbit.com/components/images/default/post-1.jpeg
-      altText: Post thumbnail image
+    name: airportName
+    label: 📇 Airport name
+  - type: string
+    name: airportCode
+    label: 🔐 Airport code
+  - type: list
+    name: airportLatLng
+    label: ✈️ Airport Coordinates
+    items:
+      type: object
+      fields:
+        - type: number
+          name: lat
+          label: Latitude
+        - type: number
+          name: long
+          label: Longitude
+  - type: list
+    name: parkingLatLng
+    label: 🚗 Parking Coordinates
+    items:
+      type: object
+      fields:
+        - type: number
+          name: lat
+          label: Latitude
+        - type: number
+          name: long
+          label: Longitude              
+  - type: enum
+    name: skill
+    label: 🏄🏽‍♀️ Skill level
+    controlType: 'dropdown'
+    options:
+      - label: Beginner
+        value: beginner
+      - label: Intermediate
+        value: intermediate
+      - label: Advanced
+        value: advanced
+      - label: Expert
+        value: expert
+  - type: enum
+    name: bestSize
+    label: 🌊 Best size
+    controlType: 'dropdown'
+    options:
+      - label: '3-5 ft'
+        value: '3-5 ft'
+      - label: '5-7 ft'
+        value: '5-7 ft'
+      - label: '8-10+ ft'
+        value: '8-10+ ft'
+  - type: enum
+    name: bestPeriod
+    label: ⏱ Best swell period?
+    controlType: 'dropdown'
+    options:
+      - label: '7-10 seconds'
+        value: '7-10 sec'
+      - label: '10-13 seconds'
+        value: '10-13 sec'
+      - label: '13-16 seconds'
+        value: '13-16 sec'
+      - label: '16+ seconds'
+        value: '16+ sec'
+  - type: enum
+    name: bestTide
+    label: ♒︎ Best tide
+    controlType: 'dropdown'
+    options:
+      - label: Low tide
+        value: low
+      - label: Medium tide
+        value: medium
+      - label: High tide
+        value: high
+      - label: All tides
+        value: all
+  - type: enum
+    name: bestWind
+    label: 🌬 Best wind
+    controlType: 'dropdown'
+    options:
+      - label: North
+        value: 'N'
+      - label: Northeast
+        value: 'NE'
+      - label: East
+        value: 'E'
+      - label: Southeast
+        value: 'SE'
+      - label: South
+        value: 'S'
+      - label: Southwest
+        value: 'SW'
+      - label: West
+        value: 'W'
+      - label: Northwest
+        value: 'NW'
+  - type: enum
+    name: bestSwellDirection
+    label: 🧭 Best swell direction
+    controlType: 'dropdown'
+    options:
+      - label: North
+        value: 'N'
+      - label: Northeast
+        value: 'NE'
+      - label: East
+        value: 'E'
+      - label: Southeast
+        value: 'SE'
+      - label: South
+        value: 'S'
+      - label: Southwest
+        value: 'SW'
+      - label: West
+        value: 'W'
+      - label: Northwest
+        value: 'NW'
+  - type: enum
+    name: waveType
+    label: 🌊 Wave type
+    controlType: 'dropdown'
+    options:
+      - label: Beach
+        value: 'beach'
+      - label: Point
+        value: 'point'
+      - label: Reef
+        value: 'reef'
+      - label: Rockreef
+        value: 'rockreef'
+      - label: Slab
+        value: 'slab'
+  - type: enum
+    name: bottomType
+    label: 🐠 Bottom type?
+    controlType: 'dropdown'
+    options:
+      - label: 'Sand'
+        value: 'sand'
+      - label: 'Rock'
+        value: 'rock'
+      - label: 'Reef'
+        value: 'reef'
+      - label: 'Rockreef'
+        value: 'rockreef'
+  - type: boolean
+    name: isBigWave
+    label: 🌊 Big wave spot?
+    default: false
+  - type: enum
+    name: isBarrel
+    label: 🛢 Does it barrel?
+    controlType: 'dropdown'
+    options:
+      - label: 'Yes'
+        value: 'yes'
+      - label: 'Sometimes'
+        value: 'sometimes'
+      - label: 'No'
+        value: 'no'
+  - type: enum
+    name: waveDirection
+    label: ↔️ Wave direction
+    controlType: 'dropdown'
+    options:
+      - label: Right
+        value: 'right'
+      - label: Left
+        value: 'left'
+      - label: Both
+        value: 'both'
+  - type: enum
+    name: waveQuality
+    label: ⭐️ How many stars?
+    controlType: 'dropdown'
+    options:
+      - label: 5 stars
+        value: 5
+      - label: 4 stars
+        value: 4
+      - label: 3 stars
+        value: 3
+      - label: 2 stars
+        value: 2
+      - label: 1 star
+        value: 1
+  - type: string
+    name: forecastLink
+    label: 🌤 Forecast link
+  - type: string
+    name: videoLink
+    label: 🎥 Youtube Video
+  - type: enum
+    name: bestBoard
+    label: 🏄‍♂️ Best board
+    controlType: 'dropdown'
+    options:
+      - label: Short Board
+        value: short-board
+      - label: Fun Board
+        value: fun-board
+      - label: Long Board
+        value: long-board
+      - label: Semi Gun
+        value: semi-gun
+      - label: Gun
+        value: gun
+  - type: enum
+    name: janRating
+    label: 📅 How good is January?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: febRating
+    label: 📅 How good is February?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: marRating
+    label: 📅 How good is March?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: aprRating
+    label: 📅 How good is April?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: mayRating
+    label: 📅 How good is May?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: junRating
+    label: 📅 How good is June?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: julRating
+    label: 📅 How good is July?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: augRating
+    label: 📅 How good is August?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: sepRating
+    label: 📅 How good is September?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: octRating
+    label: 📅 How good is October?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: novRating
+    label: 📅 How good is November?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: decRating
+    label: 📅 How good is December?
+    controlType: 'dropdown'
+    options:
+      - label: 'Green'
+        value: 100
+      - label: 'Light Green'
+        value: 80
+      - label: 'Yellow'
+        value: 60
+      - label: 'Red'
+        value: 40
+  - type: enum
+    name: beachComfort
+    label: 🏖 How comfortable is the beach?
+    controlType: 'dropdown'
+    options:
+      - label: 'Comfortable'
+        value: 'comfortable'
+      - label: 'Semi-comfortable'
+        value: 'semi-comfortable'
+      - label: 'No Beach'
+        value: 'no-beach'
+  - type: enum
+    name: crowdLevel
+    label: 🎡 How crowded is it?
+    controlType: 'dropdown'
+    options:
+      - label: 'A Zoo'
+        value: 'a-zoo'
+      - label: 'Spread Out'
+        value: 'spread-out'
+      - label: 'Uncrowded'
+        value: 'uncrowded'
+  - type: enum
+    name: localismLevel
+    label: 👺 How localized is it?
+    controlType: 'dropdown'
+    options:
+      - label: 'Yes'
+        value: 'yes'
+      - label: 'Be Respectful'
+        value: 'be-respectful'
+      - label: 'No'
+        value: 'no'
+  - type: enum
+    name: accessibility
+    label: 🏔 How accessible is it?
+    controlType: 'dropdown'
+    options:
+      - label: 'Park'
+        value: 'park'
+      - label: 'Hike'
+        value: 'hike'
+      - label: 'Boat'
+        value: 'boat'
+      - label: 'Right Out Front'
+        value: 'in-front'
+  - type: boolean
+    name: isPowerful
+    label: ⚡️ Can it be powerful?
+  - type: enum
+    name: waterTemp
+    label: 🌡 Water temperature
+    controlType: 'dropdown'
+    options:
+      - label: Wetsuit
+        value: wetsuit
+      - label: Trunks
+        value: trunks
+  - type: boolean
+    name: isWalkable
+    label: 🚶‍♀️ Good walkability?
+  - type: boolean
+    name: isSharky
+    label: 🦈 Is it sharky?
+  - type: boolean
+    name: isEasyToGetWaves
+    label: 😍 Is it easy to get waves?
+  - type: boolean
+    name: isFarFromShore
+    label: 🔎 Is far from shore?
+  - type: boolean
+    name: isBeginnerFriendly
+    label: 👧 Is beginner friendly?
+  - type: boolean
+    name: isUncrowded
+    label: 🌵 Is uncrowded?
+  - type: boolean
+    name: isShallow
+    label: 😱 Is shallow?
+  - type: boolean
+    name: isCompetitive
+    label: 🏁 Is competitive?
+  - type: boolean
+    name: lessonsNearby
+    label: 🛖 Surf lessons nearby?
+  - type: boolean
+    name: rentalsNearby
+    label: 🏡 Surf rentals nearby?
+  - type: markdown
+    name: localsDescription
+    label: 📝 Local description
   - type: list
     name: bottomSections
     label: Sections
