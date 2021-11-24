@@ -364,7 +364,7 @@ export default function PostLayout(props) {
                             videoPhrase={videoPhrase}
                             forecastLink={forecastLink}
                             forecastPhrase={forecastPhrase}
-                            surfSpotLng={surfSpotLat}
+                            directionsLink={directionsLink}
                             surfSpotLat={surfSpotLng}
                         />
                         {page.markdown_content && (
