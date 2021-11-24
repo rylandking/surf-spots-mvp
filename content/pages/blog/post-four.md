@@ -122,4 +122,5 @@ isBigWave: false
 isBarrel: sometimes
 waveDirection: both
 waveQuality: '3'
+forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 ---
