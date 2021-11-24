@@ -33,7 +33,7 @@ export default function PostLayout(props) {
     let isBigWave;
     let isBarrel;
     let waveDirection = page.waveDirection;
-    let waveQuality;
+    let waveQuality = page.waveQuality.value;
     let stars;
     let starsDesc;
     let bestBoard;
