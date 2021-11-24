@@ -188,7 +188,7 @@ export default function PostLayout(props) {
     }
 
     // Set best months phrase
-    if (jan === 100) {
+    if (janRating === 100) {
         jan = 'January';
         bestMonths.push(jan);
     } else {
