@@ -332,7 +332,7 @@ export default function PostLayout(props) {
         forecastPhrase = "Surf-Forecast.com"
     } else if (forecastLink.includes("shaka")) {
         forecastPhrase = "Shaka Bay"
-    } else if (forecastLink.includes("shaka")) {
+    } else if (forecastLink.includes("yosurfer")) {
         forecastPhrase = "Shaka Bay"
     }
 
