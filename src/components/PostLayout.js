@@ -153,7 +153,9 @@ export default function PostLayout(props) {
     // Set tide phrase
 	if (tide === 'all') {
 		tide = 'any';
-	}
+    }
+    
+    
 
     return (
         <BaseLayout page={page} site={site}>
