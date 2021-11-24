@@ -19,7 +19,7 @@ export default function PostLayout(props) {
     let titleContraction;
     let surfSpotLat = page.surfSpotLatLng[0].lat;
     let surfSpotLng = page.surfSpotLatLng[0].lng;
-    let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${surfSpotLat},-76.12345`
+    let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${surfSpotLat},${surfSpotLng}`
     let mapZoom = page.mapZoom;
     let parkingLatLng = page.parkingLatLng;
 
