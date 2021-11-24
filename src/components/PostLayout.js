@@ -19,7 +19,7 @@ export default function PostLayout(props) {
     let titleContraction;
     let surfSpotLatLng;
     let mapZoom;
-parkingLatLng:
+    let parkingLatLng;
   - lat: 32.961273
     long: -117.267395
 skill: intermediate
