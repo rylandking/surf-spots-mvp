@@ -89,15 +89,15 @@ export default function PostLayout(props) {
     }
 
     // Set period phrase
-	if (period === '7-10 sec') {
-		period = '7 to 10 second';
-	} else if (period === '10-13 sec') {
-		period = '10 to 13 second';
-	} else if (period === '13-16 sec') {
-		period = '13 to 16 second';
-	} else {
-		period = '16+ seconds';
-	}
+    if (bestPeriod === '7-10 sec') {
+        bestPeriod = '7 to 10 second';
+    } else if (bestPeriod === '10-13 sec') {
+        bestPeriod = '10 to 13 second';
+    } else if (bestPeriod === '13-16 sec') {
+        bestPeriod = '13 to 16 second';
+    } else {
+        bestPeriod = '16+ seconds';
+    }
 
     return (
         <BaseLayout page={page} site={site}>
