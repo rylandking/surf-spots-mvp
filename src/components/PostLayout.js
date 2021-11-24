@@ -338,7 +338,7 @@ export default function PostLayout(props) {
                             bestPeriod={bestPeriod}
                             bestSwellDirection={bestSwellDirection}
                             bestSize={bestSize}
-                            bestSize={bestSize}
+                            bestWind={bestSize}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
