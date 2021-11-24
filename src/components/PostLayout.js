@@ -162,7 +162,7 @@ export default function PostLayout(props) {
 	} else if (stars === 2) {
 		stars = '2';
 		starDesc = 'a good time if you need to get wet';
-	} else if (stars === '3 Stars') {
+	} else if (stars === 3 Stars') {
 		stars = '3';
 		starDesc = 'pretty fun';
 	} else if (stars === '4 Stars') {
