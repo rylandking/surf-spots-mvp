@@ -1,6 +1,7 @@
 name: PostLayout
 label: Post
 layout: PostLayout
+labelField: title
 fields:
   - type: string
     name: title
