@@ -156,7 +156,7 @@ export default function PostLayout(props) {
     }
 
     // Set stars phrase
-    if (stars === 1) {
+    if (waveQuality === 1) {
         stars = '1';
         starDesc = 'for the desperate';
     } else if (stars === 2) {
