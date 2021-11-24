@@ -129,6 +129,25 @@ export default function PostLayout(props) {
 		bestSize = '8 to 10 feet and bigger';
 	} else if (bestSize === '8-10+ ft') {
 		bestSize = '8 to 10 feet and bigger';
+    }
+    
+    	// Set wind phrase
+	if (windDir === 'W') {
+		windDir = 'West';
+	} else if (windDir === 'SW') {
+		windDir = 'Southwest';
+	} else if (windDir === 'S') {
+		windDir = 'South';
+	} else if (windDir === 'SE') {
+		windDir = 'Southeast';
+	} else if (windDir === 'E') {
+		windDir = 'East';
+	} else if (windDir === 'NE') {
+		windDir = 'Northeast';
+	} else if (windDir === 'N') {
+		windDir = 'North';
+	} else if (windDir === 'NW') {
+		windDir = 'Northwest';
 	}
 
     return (
