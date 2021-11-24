@@ -1,62 +1,101 @@
 ---
-title: Convert commute time to family time
+title: 15th-street
+board: long-board
+powerful: ""
+localism: no
+direction: both
+parkWalk: ""
+access: 'Parking nearby'
+video: 'https://youtu.be/VuQ23mhyBV8'
+oct: 100
+timestamp:
+    __datatype__: timestamp
+    value: {_seconds: 1537906913, _nanoseconds: 602000000}
+parkingNearby: 'parking nearby'
+bars: ""
+period: '13-16 sec'
+temp: wetsuit
+culturalSights: ""
+unsafeTapWater: ""
+kidFriendly: ""
+jan: 100
+lessons: yes
+sep: 100
+walkability: ""
+rentals: no
+views: ""
+french: ""
+airportCoords:
+    lng: -117.200598
+    lat: 32.731507
+skill: intermediate
+healthcareFarAway: ""
+portugese: ""
+nature: ""
+city: encinitas
+theftCommon: ""
+ripCurrents: ""
+unsafeArea: ""
+shopping: ""
+parkingLat: 32.961273
+bottom: sand
+english: english
+goodInternet: 'good internet'
+mar: 60
+aug: 100
+swellDir: S
+sitDownRestaurants: ""
+sharky: ""
+spotNote: 'Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.'
+contintent: north-america
+jun: 100
+jul: 100
+nightlife: ""
+spanish: ""
+parkingLng: -117.267395
+touristy: ""
+airportName: 'San Diego International Airport'
+nov: 100
+easyToGetWaves: 'easy to get waves'
+apr: 60
+crowd: spread-out
+size: '5-7 ft'
+may: 80
+farFromShore: ""
+fastFood: ""
+forecast: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
+indonesian: ""
+partyScene: ""
+beginnerFriendly: ""
+type: beach
+uncrowded: ""
+name: 15th-street
+dec: 100
+shallow: ""
+crowded: crowded
+feb: 100
+themePark: ""
+pier: ""
+parkLongHike: ""
+longPaddle: ""
+surfspot:
+    lat: 32.959027
+    lng: -117.269313
+healthcareNearby: 'healthcare nearby'
+tide: medium
+zoom: 15
+airportCode: SAN
+barrel: no
+competitive: ""
+badInternet: ""
+beach: comfortable
+goodEats: 'good eats'
+quality: '4 Stars'
+wind: E
+casualEats: 'casual eats'
+boatAccess: ""
+parkHike: ""
+__collections__: {}
+bottomSections: []
 layout: PostLayout
-date: '2021-11-03'
-author: content/data/team/hugh-saturation.json
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
-featuredImage:
-  type: ImageBlock
-  url: /images/post-4.jpg
-  altText: Post Image
-bottomSections:
-  - type: CtaSection
-    colors: colors-f
-    title: Let's do this
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
-    actions:
-      - type: Button
-        label: Get Started
-        url: 'https://www.stackbit.com/'
-        style: primary
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
-
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
-
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
-
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
-
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
