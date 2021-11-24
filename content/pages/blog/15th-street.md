@@ -26,34 +26,34 @@ waveQuality: '4'
 forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: 'https://youtu.be/VuQ23mhyBV8'
 bestBoard: long-board
-janRating:
+jan:
   label: Green
   value: 100
-febRating:
+feb:
   label: Green
   value: 100
-marRating: '60'
-aprRating: '60'
-mayRating: '80'
-junRating:
+mar: '60'
+apr: '60'
+may: '80'
+jun:
   label: Green
   value: 100
-julRating:
+jul:
   label: Green
   value: 100
-augRating:
+aug:
   label: Green
   value: 100
-sepRating:
+sep:
   label: Green
   value: 100
-octRating:
+oct:
   label: Green
   value: 100
-novRating:
+nov:
   label: Green
   value: 100
-decRating:
+dec:
   label: Green
   value: 100
 beachComfort:
