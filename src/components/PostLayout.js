@@ -35,19 +35,19 @@ export default function PostLayout(props) {
     let forecastLink;
     let videoLink;
     let bestBoard;
-    let janRating
-    let febRating
+    let janRating;
+    let febRating;
     let marRating;
     let aprRating;
     let mayRating;
-    let junRating
-    let julRating
-    let augRating
-    let sepRating
-    let octRating
-    let novRating
-    let decRating
-    let beachComfort
+    let junRating;
+    let julRating;
+    let augRating;
+    let sepRating;
+    let octRating;
+    let novRating;
+    let decRating;
+    let beachComfort;
     let crowdLevel;
     let localismLevel;
     let accessibility
