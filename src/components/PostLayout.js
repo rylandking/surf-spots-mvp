@@ -333,7 +333,11 @@ export default function PostLayout(props) {
                             titleContraction={titleContraction} 
                             skillPhrase={skillPhrase} 
                             waveDirection={waveDirection} 
-                            waveType={waveType} 
+                            waveType={waveType}
+                            title,
+    bestPeriod,
+    bestSwellDirection,
+    bestSize
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
