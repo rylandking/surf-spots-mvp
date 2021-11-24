@@ -1,7 +1,7 @@
 import * as React from 'react';
 import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
-import { getBaseLayoutComponent } from '@stackbit/components/dist/utils/';
+import { getBaseLayoutComponent } from '@stackbit/components/dist/utils/base-layout';
 import { getComponent } from '../../components-registry';
 
 export default function PostLayout(props) {
