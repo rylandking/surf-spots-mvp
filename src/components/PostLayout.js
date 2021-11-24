@@ -150,6 +150,11 @@ export default function PostLayout(props) {
         bestWind = 'Northwest';
     }
 
+    	// Set tide phrase
+	if (tide === 'all') {
+		tide = 'any';
+	}
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
