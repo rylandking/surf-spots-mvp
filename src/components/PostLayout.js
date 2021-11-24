@@ -32,7 +32,7 @@ export default function PostLayout(props) {
                         <header className="max-w-screen-md mx-auto mb-12 text-center">
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                         </header>
-                        <SurfSpotSection />
+                        <SurfSpotSection titleContraction= />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
                                 {page.markdown_content}
