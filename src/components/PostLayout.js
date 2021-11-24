@@ -100,23 +100,23 @@ export default function PostLayout(props) {
     }
 
     // Set swell direction
-	if (swellDir === 'W') {
-		swellDir = 'West';
-	} else if (swellDir === 'SW') {
-		swellDir = 'Southwest';
-	} else if (swellDir === 'S') {
-		swellDir = 'South';
-	} else if (swellDir === 'SE') {
-		swellDir = 'Southeast';
-	} else if (swellDir === 'E') {
-		swellDir = 'East';
-	} else if (swellDir === 'NE') {
-		swellDir = 'Northeast';
-	} else if (swellDir === 'N') {
-		swellDir = 'North';
-	} else if (swellDir === 'NW') {
-		swellDir = 'Northwest';
-	}
+    if (bestSwellDirection === 'W') {
+        bestSwellDirection = 'West';
+    } else if (bestSwellDirection === 'SW') {
+        bestSwellDirection = 'Southwest';
+    } else if (bestSwellDirection === 'S') {
+        bestSwellDirection = 'South';
+    } else if (bestSwellDirection === 'SE') {
+        bestSwellDirection = 'Southeast';
+    } else if (bestSwellDirection === 'E') {
+        bestSwellDirection = 'East';
+    } else if (bestSwellDirection === 'NE') {
+        bestSwellDirection = 'Northeast';
+    } else if (bestSwellDirection === 'N') {
+        bestSwellDirection = 'North';
+    } else if (bestSwellDirection === 'NW') {
+        bestSwellDirection = 'Northwest';
+    }
 
     return (
         <BaseLayout page={page} site={site}>
