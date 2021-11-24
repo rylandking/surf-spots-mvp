@@ -296,7 +296,31 @@ export default function PostLayout(props) {
         bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]}, ${bestMonths[8]} or ${bestMonths[9]}`;
     }
 
-    
+    	// Set video phrase
+	if (video) {
+		if (video.includes('youtu.be')) {
+			youTubeID = video.split('.be/')[1];
+			youTubeID = youTubeID.split('?')[0];
+		} else {
+			youTubeID = video.split('v=')[1];
+		}
+
+		videoEmbed = `<iframe class="mb-2" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+
+		videoSearchURL = `https://www.google.com/search?q=${ssName}%20surf&tbm=vid`;
+
+		videoPhrase = `
+      <p class="mb-2">Watch this video of ${ssNameContraction} surf to get a better feel for what the waves are like.</p>
+      ${videoEmbed}
+      <p class="mb-2"> Remember, this is just one day. Always check the surf report before going. You can <a href="${videoSearchURL}" target="_blank">watch other videos of ${ssNameContraction} surf here</a>.</p>
+    `;
+	} else {
+		videoSearchURL = `https://www.google.com/search?q=${ssName}&tbm=vid`;
+
+		videoPhrase = `
+      <p class="mb-2">You can <a href="${videoSearchURL}" target="_blank">watch videos of ${ssName}'s surf here</a>.</p>
+    `;
+	}
 
     return (
         <BaseLayout page={page} site={site}>
