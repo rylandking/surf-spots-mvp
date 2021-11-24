@@ -46,18 +46,18 @@ export default function PostLayout(props) {
     let videoSearchURL;
     let videoPhrase;
 
-    let jan;
-    let feb;
-    let mar;
-    let apr;
-    let may;
-    let jun;
-    let jul;
-    let aug;
-    let sep;
-    let oct;
-    let nov;
-    let dec;
+    let jan = page.
+    let feb = page.
+    let mar = page.
+    let apr = page.
+    let may = page.
+    let jun = page.
+    let jul = page.
+    let aug = page.
+    let sep = page.
+    let oct = page.
+    let nov = page.
+    let dec = page.
     let bestMonths = [];
     let bestMonthsPhrase;
 
