@@ -33,7 +33,7 @@ export default function SurfSpotSection({
             <div id="videoPhrase"></div>
             <p class="mb-2">You can <a href={forecastLink} target="_blank">find {titleContraction} {forecastPhrase} surf report and surf forecast here.</a></p>
             <p class="mb-2">Get Google Maps <a href={directionsLink} target="blank">directions to {titleContraction} surf parking lot.</a></p>
-            <p class="mb-2">Get information about the surf spots nearby {title} in the sidebar</p>
+            <p class="mb-2">We have more information in our database. Please email usGet information about the surf spots nearby {title} in the sidebar</p>
         </div >
     )
 }
