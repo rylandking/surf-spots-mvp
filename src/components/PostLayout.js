@@ -97,7 +97,7 @@ export default function PostLayout(props) {
     let airportLatLng
     let - lat; 32.
         let long; -117.
-    let localsDescription; 
+    let localsDescription;
     Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.
 
     // Set surf spot contraction
