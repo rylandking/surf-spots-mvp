@@ -323,6 +323,9 @@ export default function PostLayout(props) {
     `;
     }
 
+    // Set forecastPhrase
+    if
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
