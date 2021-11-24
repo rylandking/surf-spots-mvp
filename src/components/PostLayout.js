@@ -30,7 +30,7 @@ export default function PostLayout(props) {
     let waveType
     let bottomType
     let isBigWave;
-    let isBarrel; 'no
+    let isBarrel;
     let waveDirection;
     let waveQuality; '4
     let forecastLink; 'https;//magicseaweed.com/Del-Mar-Surf-Report/3707
