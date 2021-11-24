@@ -175,6 +175,115 @@ export default function PostLayout(props) {
         starDesc = 'world class';
     }
 
+    // Set best months phrase
+	if (jan === 100) {
+		jan = 'January';
+		bestMonths.push(jan);
+	} else {
+		jan = '';
+	}
+
+	if (feb === 100) {
+		feb = 'Febuary';
+		bestMonths.push(feb);
+	} else {
+		feb = '';
+	}
+
+	if (mar === 100) {
+		mar = 'March';
+		bestMonths.push(mar);
+	} else {
+		mar = '';
+	}
+
+	if (apr === 100) {
+		apr = 'April';
+		bestMonths.push(apr);
+	} else {
+		apr = '';
+	}
+
+	if (may === 100) {
+		may = 'May';
+		bestMonths.push(may);
+	} else {
+		may = '';
+	}
+
+	if (jun === 100) {
+		jun = 'June';
+		bestMonths.push(jun);
+	} else {
+		jun = '';
+	}
+
+	if (jul === 100) {
+		jul = 'July';
+		bestMonths.push(jul);
+	} else {
+		jul = '';
+	}
+
+	if (aug === 100) {
+		aug = 'August';
+		bestMonths.push(aug);
+	} else {
+		aug = '';
+	}
+
+	if (sep === 100) {
+		sep = 'September';
+		bestMonths.push(sep);
+	} else {
+		sep = '';
+	}
+
+	if (oct === 100) {
+		oct = 'October';
+		bestMonths.push(oct);
+	} else {
+		oct = '';
+	}
+
+	if (nov === 100) {
+		nov = 'November';
+		bestMonths.push(nov);
+	} else {
+		nov = '';
+	}
+
+	if (dec === 100) {
+		dec = 'December';
+		bestMonths.push(dec);
+	} else {
+		dec = '';
+	}
+
+	if (bestMonths.length === 0) {
+		bestMonthsPhrase = 'is not available';
+	} else if (bestMonths.length === 1) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}`;
+	} else if (bestMonths.length === 2) {
+		bestMonthsPhrase = `is in ${bestMonths[0]} or ${bestMonths[1]}`;
+	} else if (bestMonths.length === 3) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]} or ${bestMonths[2]}`;
+	} else if (bestMonths.length === 4) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]} or ${bestMonths[3]}`;
+	} else if (bestMonths.length === 5) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]} or ${bestMonths[4]}`;
+	} else if (bestMonths.length === 6) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]} or ${bestMonths[5]}`;
+	} else if (bestMonths.length === 7) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]} or  ${bestMonths[6]}`;
+	} else if (bestMonths.length === 8) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]} or ${bestMonths[7]}`;
+	} else if (bestMonths.length === 9) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]} or ${bestMonths[8]}`;
+	} else if (bestMonths.length === 10) {
+		bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]}, ${bestMonths[8]} or ${bestMonths[9]}`;
+	}
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
