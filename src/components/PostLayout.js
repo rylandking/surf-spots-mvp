@@ -88,6 +88,17 @@ export default function PostLayout(props) {
         waveDirection = `right and left `;
     }
 
+    	// Set period phrase
+	if (period === '7-10 sec') {
+		period = '7 to 10 second';
+	} else if (period === '10-13 sec') {
+		period = '10 to 13 second';
+	} else if (period === '13-16 sec') {
+		period = '13 to 16 second';
+	} else {
+		period = '16+ seconds';
+	}
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
