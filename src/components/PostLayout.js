@@ -92,7 +92,7 @@ export default function PostLayout(props) {
     let isCompetitive; 
     let lessonsNearby; 
     let rentalsNearby; 
-    let airportName; San Diego International 
+    let airportName;
     let airportCode; 
     let airportLatLng;
     let localsDescription;
