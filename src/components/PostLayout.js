@@ -10,7 +10,7 @@ export default function PostLayout(props) {
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const sections = page.bottomSections || [];
 
-    const title = page.title
+    let title = page.title
     .replace(/-/g, ' ')
     .toLowerCase()
     .split(' ')
