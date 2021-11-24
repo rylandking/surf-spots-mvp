@@ -33,9 +33,7 @@ febRating:
   label: Green
   value: 100
 marRating: '60'
-aprRating:
-  label: Green
-  value: 100
+aprRating: '60'
 mayRating:
   label: Green
   value: 100
