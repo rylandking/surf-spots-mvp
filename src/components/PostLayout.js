@@ -11,63 +11,49 @@ export default function PostLayout(props) {
     const sections = page.bottomSections || [];
 
     let title = page.title
-    .replace(/-/g, ' ')
-    .toLowerCase()
-    .split(' ')
-    .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-    .join(' ');
+        .replace(/-/g, ' ')
+        .toLowerCase()
+        .split(' ')
+        .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+        .join(' ');
     let titleContraction;
     let surfSpotLatLng;
     let mapZoom;
     let parkingLatLng;
-  
-    let skill; 
-    let bestSize; 5-7 
-    let bestPeriod; 13-16 
-    let bestTide; 
-    let bestWind; 
-    let bestSwellDirection; 
+
+    let skill;
+    let bestSize; 5 - 7
+    let bestPeriod; 13 - 16
+    let bestTide;
+    let bestWind;
+    let bestSwellDirection;
     let waveType
-    let label;  
     let bottomType
-    let label;  
-    let isBigWave; 
+    let isBigWave;
     let isBarrel; 'no
-    let waveDirection; 
+    let waveDirection;
     let waveQuality; '4
     let forecastLink; 'https;//magicseaweed.com/Del-Mar-Surf-Report/3707
     let videoLink; 'https;//youtu.be/VuQ23mhyBV8
-    let bestBoard; long-
-    let janRating
-    let label;  
+    let bestBoard; long -
+        let janRating
     let febRating
-    let label;  
     let marRating; '60
     let aprRating; '60
     let mayRating; '80
     let junRating
-    let label;  
     let julRating
-    let label;  
     let augRating
-    let label;  
     let sepRating
-    let label;  
     let octRating
-    let label;  
     let novRating
-    let label;  
     let decRating
-    let label;  
     let beachComfort
-    let label;  
-    let crowdLevel; spread-
-    let localismLevel; 'no
+    let crowdLevel; spread -
+        let localismLevel; 'no
     let accessibility
-    let label;  
-    let isPowerful; 
+    let isPowerful;
     let waterTemp
-    let label;
     let isWalkable;
     let isSharky;
     let isEasyToGetWaves;
@@ -75,17 +61,17 @@ export default function PostLayout(props) {
     let isBeginnerFriendly;
     let isUncrowded;
     let isShallow;
-    let isCompetitive; 
-    let lessonsNearby; 
-    let rentalsNearby; 
+    let isCompetitive;
+    let lessonsNearby;
+    let rentalsNearby;
     let airportName;
-    let airportCode; 
+    let airportCode;
     let airportLatLng;
     let localsDescription;
-    Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.
+    Super fun intermediate beach break waves with a killer beach and grassy area for families and friends.One of those spots that you can almost always have fun at at any time of the year.Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly.Park in the lot just after 18th Street and walk South for a minute or two to get to the waves.Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.
 
-    // Set surf spot contraction
-    if (title.endsWith('s')) {
+        // Set surf spot contraction
+        if(title.endsWith('s')) {
         titleContraction = `${title}'`;
     } else {
         titleContraction = `${title}'s`;
