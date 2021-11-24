@@ -7,9 +7,7 @@ mapZoom: 15
 parkingLatLng:
   - lat: 32.961273
     long: -117.267395
-skill:
-  label: Beginner
-  value: beginner
+skill: intermediate
 bestSize:
   label: 3-5 ft
   value: 3-5 ft
