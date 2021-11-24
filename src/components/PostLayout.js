@@ -60,7 +60,7 @@ export default function PostLayout(props) {
     let decRating;
     let bestMonths = [];
     let bestMonthsPhrase;
-    
+
     let beachComfort;
     let crowdLevel;
     let localismLevel;
@@ -77,6 +77,7 @@ export default function PostLayout(props) {
     let isCompetitive;
     let lessonsNearby;
     let rentalsNearby;
+    
     let airportName;
     let airportCode;
     let airportLatLng;
