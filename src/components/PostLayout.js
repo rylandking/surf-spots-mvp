@@ -305,7 +305,7 @@ export default function PostLayout(props) {
             youTubeID = videoLink.split('v=')[1];
         }
 
-        videoEmbed = `<iframe class="mb-2" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+        videoEmbed = `<iframe class="mb-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
 
         videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
 
