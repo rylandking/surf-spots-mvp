@@ -17,7 +17,9 @@ export default function SurfSpotSection({
     bestMonthsPhrase,
     videoPhrase,
     forecastLink,
-    forecastPhrase }) {
+    forecastPhrase,
+surfSpotLat,
+surfSpotLng }) {
 
     useEffect(() => {
         window.onload = function setVideoPhrase() {
