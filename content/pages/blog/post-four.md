@@ -129,4 +129,5 @@ isWalkable: true
 isSharky: true
 isEasyToGetWaves: true
 isFarFromShore: true
+isBeginnerFriendly: true
 ---
