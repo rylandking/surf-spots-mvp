@@ -1,4 +1,4 @@
-import * as React from 'react';
+import {useEffect} as React from 'react';
 
 export default function SurfSpotSection({
     titleContraction,
