@@ -130,4 +130,7 @@ isSharky: true
 isEasyToGetWaves: true
 isFarFromShore: true
 isBeginnerFriendly: true
+isUncrowded: true
+isShallow: true
+isCompetitive: true
 ---
