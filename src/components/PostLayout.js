@@ -119,7 +119,7 @@ export default function PostLayout(props) {
     }
 
     // Set wave size phrase
-	if (waveSize === '2-4 ft') {
+	if (bestSize === '2-4 ft') {
 		waveSize = '2 to 4 feet';
 	} else if (waveSize === '3-5 ft') {
 		waveSize = '3 to 5 feet';
