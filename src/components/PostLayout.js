@@ -21,7 +21,8 @@ export default function PostLayout(props) {
     let mapZoom;
     let parkingLatLng;
     let skill;
-    let bestSize; 
+    let skillPhrase;
+    let bestSize;
     let bestPeriod;
     let bestTide;
     let bestWind;
@@ -69,23 +70,23 @@ export default function PostLayout(props) {
     let localsDescription;
 
     // Set surf spot contraction
-    if(title.endsWith('s')) {
-    titleContraction = `${title}'`;
+    if (title.endsWith('s')) {
+        titleContraction = `${title}'`;
     } else {
         titleContraction = `${title}'s`;
     }
 
     // Set skill phrase
-	if (skill === 'beginner') {
-		skillPhrase = `a ${skill}`;
-	} else {
-		skillPhrase = `an ${skill}`;
+    if (skill === 'beginner') {
+        skillPhrase = `a ${skill}`;
+    } else {
+        skillPhrase = `an ${skill}`;
     }
-    
+
     // Set waveDir phrase
-	if (waveDir === 'both') {
-		waveDir = `right and left `;
-	}
+    if (waveDir === 'both') {
+        waveDir = `right and left `;
+    }
 
     return (
         <BaseLayout page={page} site={site}>
