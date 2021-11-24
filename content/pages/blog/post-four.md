@@ -119,4 +119,5 @@ bestPeriod: 13-16 sec
 bestTide: medium
 bestWind: E
 isBigWave: false
+isBarrel: sometimes
 ---
