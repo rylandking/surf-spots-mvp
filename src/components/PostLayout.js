@@ -119,36 +119,36 @@ export default function PostLayout(props) {
     }
 
     // Set wave size phrase
-	if (bestSize === '2-4 ft') {
-		bestSize = '2 to 4 feet';
-	} else if (bestSize === '3-5 ft') {
-		bestSize = '3 to 5 feet';
-	} else if (bestSize === '5-7 ft') {
-		bestSize = '5 to 7 feet';
-	} else if (bestSize === '8-10 ft+') {
-		bestSize = '8 to 10 feet and bigger';
-	} else if (bestSize === '8-10+ ft') {
-		bestSize = '8 to 10 feet and bigger';
+    if (bestSize === '2-4 ft') {
+        bestSize = '2 to 4 feet';
+    } else if (bestSize === '3-5 ft') {
+        bestSize = '3 to 5 feet';
+    } else if (bestSize === '5-7 ft') {
+        bestSize = '5 to 7 feet';
+    } else if (bestSize === '8-10 ft+') {
+        bestSize = '8 to 10 feet and bigger';
+    } else if (bestSize === '8-10+ ft') {
+        bestSize = '8 to 10 feet and bigger';
     }
-    
+
     // Set wind phrase
-	if (windDir === 'W') {
-		windDir = 'West';
-	} else if (windDir === 'SW') {
-		windDir = 'Southwest';
-	} else if (windDir === 'S') {
-		windDir = 'South';
-	} else if (windDir === 'SE') {
-		windDir = 'Southeast';
-	} else if (windDir === 'E') {
-		windDir = 'East';
-	} else if (windDir === 'NE') {
-		windDir = 'Northeast';
-	} else if (windDir === 'N') {
-		windDir = 'North';
-	} else if (windDir === 'NW') {
-		windDir = 'Northwest';
-	}
+    if (bestWind === 'W') {
+        bestWind = 'West';
+    } else if (bestWind === 'SW') {
+        bestWind = 'Southwest';
+    } else if (bestWind === 'S') {
+        bestWind = 'South';
+    } else if (bestWind === 'SE') {
+        bestWind = 'Southeast';
+    } else if (bestWind === 'E') {
+        bestWind = 'East';
+    } else if (bestWind === 'NE') {
+        bestWind = 'Northeast';
+    } else if (bestWind === 'N') {
+        bestWind = 'North';
+    } else if (bestWind === 'NW') {
+        bestWind = 'Northwest';
+    }
 
     return (
         <BaseLayout page={page} site={site}>
