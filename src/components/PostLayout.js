@@ -20,7 +20,7 @@ export default function PostLayout(props) {
     let surfSpotLat = page.surfSpotLatLng[0].lat;
     let surfSpotLng = page.surfSpotLatLng[0].lng;
     console.log(page);
-    console.log(surfSpotLat);
+    console.log(surfSpotLng);
 
     let mapZoom = page.mapZoom;
     let parkingLatLng = page.parkingLatLng;
