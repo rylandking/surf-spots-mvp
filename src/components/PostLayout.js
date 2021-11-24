@@ -19,9 +19,9 @@ export default function PostLayout(props) {
     let titleContraction;
     let surfSpotLatLng = page.surfSpotLatLng;
     let mapZoom = page.mapZoom;
-    let parkingLatLng;
+    let parkingLatLng = page.parkingLatLng;
 
-    let skill;
+    let skill = page.skill;
     let skillPhrase;
     let bestSize;
     let bestPeriod;
