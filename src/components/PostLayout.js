@@ -81,13 +81,13 @@ export default function PostLayout(props) {
     let isPowerful; 
     let waterTemp
     let label; 
-    let value; 
-    let isWalkable; 
-    let isSharky; 
-    let isEasyToGetWaves; 
-    let isFarFromShore; 
-    let isBeginnerFriendly; 
-    let isUncrowded; 
+    let value;
+    let isWalkable;
+    let isSharky;
+    let isEasyToGetWaves;
+    let isFarFromShore;
+    let isBeginnerFriendly;
+    let isUncrowded;
     let isShallow;
     let isCompetitive; 
     let lessonsNearby; 
