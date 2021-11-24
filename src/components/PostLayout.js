@@ -75,6 +75,13 @@ export default function PostLayout(props) {
         titleContraction = `${title}'s`;
     }
 
+    // Set skill phrase
+	if (skill === 'beginner') {
+		skillPhrase = `a ${skill}`;
+	} else {
+		skillPhrase = `an ${skill}`;
+	}
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
