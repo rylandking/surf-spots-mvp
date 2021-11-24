@@ -136,6 +136,6 @@ isCompetitive: true
 lessonsNearby: true
 rentalsNearby: true
 airportLatLng:
-  - lat: 0
+  - lat: 32.731507
     long: 0
 ---
