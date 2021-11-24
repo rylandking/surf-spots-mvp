@@ -11,9 +11,7 @@ skill: intermediate
 bestSize: 5-7 ft
 bestPeriod: 13-16 sec
 bestTide: medium
-bestWind:
-  label: North
-  value: 'N'
+bestWind: E
 bestSwellDirection:
   label: North
   value: 'N'
