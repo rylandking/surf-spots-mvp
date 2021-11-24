@@ -25,9 +25,7 @@ waveDirection: both
 waveQuality: '4'
 forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: 'https://youtu.be/VuQ23mhyBV8'
-bestBoard:
-  label: Short Board
-  value: short-board
+bestBoard: long-board
 janRating:
   label: Green
   value: 100
