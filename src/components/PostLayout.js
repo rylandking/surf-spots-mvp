@@ -32,15 +32,15 @@ export default function PostLayout(props) {
     let isBigWave;
     let isBarrel;
     let waveDirection;
-    let waveQuality; '4
-    let forecastLink; 'https;//magicseaweed.com/Del-Mar-Surf-Report/3707
-    let videoLink; 'https;//youtu.be/VuQ23mhyBV8
+    let waveQuality;
+    let forecastLink;
+    let videoLink;
     let bestBoard; long -
         let janRating
     let febRating
-    let marRating; '60
-    let aprRating; '60
-    let mayRating; '80
+    let marRating;
+    let aprRating;
+    let mayRating;
     let junRating
     let julRating
     let augRating
@@ -50,7 +50,7 @@ export default function PostLayout(props) {
     let decRating
     let beachComfort
     let crowdLevel; spread -
-        let localismLevel; 'no
+        let localismLevel;
     let accessibility
     let isPowerful;
     let waterTemp
