@@ -99,6 +99,25 @@ export default function PostLayout(props) {
         bestPeriod = '16+ seconds';
     }
 
+    	// Set period phrase
+	if (swellDir === 'W') {
+		swellDir = 'West';
+	} else if (swellDir === 'SW') {
+		swellDir = 'Southwest';
+	} else if (swellDir === 'S') {
+		swellDir = 'South';
+	} else if (swellDir === 'SE') {
+		swellDir = 'Southeast';
+	} else if (swellDir === 'E') {
+		swellDir = 'East';
+	} else if (swellDir === 'NE') {
+		swellDir = 'Northeast';
+	} else if (swellDir === 'N') {
+		swellDir = 'North';
+	} else if (swellDir === 'NW') {
+		swellDir = 'Northwest';
+	}
+
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
