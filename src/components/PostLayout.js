@@ -322,8 +322,6 @@ export default function PostLayout(props) {
     `;
     }
 
-    // document.getElementById("videoPhrase").innerHTML = videoPhrase;
-
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
