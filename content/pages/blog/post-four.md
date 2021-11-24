@@ -133,4 +133,6 @@ isBeginnerFriendly: true
 isUncrowded: true
 isShallow: true
 isCompetitive: true
+lessonsNearby: true
+rentalsNearby: true
 ---
