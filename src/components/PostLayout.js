@@ -17,19 +17,19 @@ export default function PostLayout(props) {
         .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
         .join(' ');
     let titleContraction;
-    // let surfSpotLatLng = page.surfSpotLatLng;
+    let surfSpotLatLng = page.surfSpotLatLng;
     let mapZoom = page.mapZoom;
-    // let parkingLatLng = page.parkingLatLng;
+    let parkingLatLng = page.parkingLatLng;
 
-    let skill = page.skill;
+    let skill;
     let skillPhrase;
-    let bestSize = page.bestSize;
-    let bestPeriod = page.bestPeriod;
-    let bestTide = page.bestTide;
-    let bestWind = page.bestWind;
-    let bestSwellDirection = page.bestSwellDirection;
-    let waveType = page.waveType;
-    let bottomType = page.bottomType;
+    let bestSize;
+    let bestPeriod;
+    let bestTide;
+    let bestWind;
+    let bestSwellDirection;
+    let waveType
+    let bottomType
     let isBigWave;
     let isBarrel;
     let waveDirection;
