@@ -3,7 +3,7 @@ title: 15th-street
 surfSpotLatLng:
   - lat: 32.959027
     long: -117.269313
-mapZoom: 0
+mapZoom: 15
 parkingLatLng: []
 skill:
   label: Beginner
