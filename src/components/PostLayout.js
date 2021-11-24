@@ -49,8 +49,8 @@ export default function PostLayout(props) {
     let novRating
     let decRating
     let beachComfort
-    let crowdLevel; spread -
-        let localismLevel;
+    let crowdLevel;
+    let localismLevel;
     let accessibility
     let isPowerful;
     let waterTemp
