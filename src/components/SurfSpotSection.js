@@ -16,6 +16,8 @@ export default function SurfSpotSection({
     skill,
     bestMonthsPhrase,
     videoPhrase }) {
+
+        
     return (
         <div>
             <p className="mb-2">{titleContraction} surf is {skillPhrase} {waveDirection} {waveType} break.</p>
