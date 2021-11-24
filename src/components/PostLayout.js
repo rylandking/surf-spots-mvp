@@ -44,7 +44,6 @@ export default function PostLayout(props) {
 	let videoSearchURL;
     let videoPhrase;
     
-    let bestBoard;
     let janRating;
     let febRating;
     let marRating;
