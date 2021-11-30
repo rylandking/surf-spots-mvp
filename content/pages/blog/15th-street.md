@@ -13,9 +13,7 @@ bestPeriod: 13-16 sec
 bestTide: medium
 bestWind: E
 bestSwellDirection: S
-waveType:
-  label: Beach
-  value: beach
+waveType: beach
 bottomType:
   label: Sand
   value: sand
