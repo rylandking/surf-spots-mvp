@@ -409,11 +409,11 @@ fields:
     label: 🏔 How accessible is it?
     controlType: 'dropdown'
     options:
-      - label: 'Park'
+      - label: 'park'
         value: 'park'
-      - label: 'Hike'
+      - label: 'hike'
         value: 'hike'
-      - label: 'Boat'
+      - label: 'boat'
         value: 'boat'
       - label: 'Right Out Front'
         value: 'in-front'
