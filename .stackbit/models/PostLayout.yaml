@@ -145,13 +145,13 @@ fields:
     label: 🐠 Bottom type?
     controlType: 'dropdown'
     options:
-      - label: 'Sand'
+      - label: 'sand'
         value: 'sand'
-      - label: 'Rock'
+      - label: 'rock'
         value: 'rock'
-      - label: 'Reef'
+      - label: 'reef'
         value: 'reef'
-      - label: 'Rockreef'
+      - label: 'rockreef'
         value: 'rockreef'
   - type: enum
     name: waveDirection
