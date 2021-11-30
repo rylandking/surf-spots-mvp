@@ -35,9 +35,7 @@ feb:
 mar: '60'
 apr: '60'
 may: '80'
-jun:
-  label: Green
-  value: 100
+jun: 100
 jul: 100
 aug: 100
 sep: 100
