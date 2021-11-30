@@ -53,7 +53,7 @@ oct:
 nov:
   label: Green
   value: 100
-dec: '60'
+dec: '100'
 beachComfort:
   label: Comfortable
   value: comfortable
