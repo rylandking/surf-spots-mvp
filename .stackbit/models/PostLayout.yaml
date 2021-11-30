@@ -222,7 +222,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -235,7 +235,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -248,7 +248,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -261,7 +261,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -274,7 +274,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -287,7 +287,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -300,7 +300,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -313,7 +313,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -326,7 +326,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -339,7 +339,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
@@ -352,7 +352,7 @@ fields:
     options:
       - label: 100
         value: 100
-      - label: 'Light Green'
+      - label: 80
         value: 80
       - label: 'Yellow'
         value: 60
