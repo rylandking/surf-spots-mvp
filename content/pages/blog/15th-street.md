@@ -47,9 +47,7 @@ aug:
 sep:
   label: Green
   value: 100
-oct:
-  label: Green
-  value: 100
+oct: 100
 nov: 100
 dec: '80'
 beachComfort:
