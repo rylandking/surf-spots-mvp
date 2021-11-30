@@ -224,7 +224,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -237,7 +237,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -250,7 +250,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -263,7 +263,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -276,7 +276,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -289,7 +289,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -302,7 +302,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -315,7 +315,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -328,7 +328,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -341,7 +341,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
@@ -354,7 +354,7 @@ fields:
         value: 100
       - label: 80
         value: 80
-      - label: 'Yellow'
+      - label: 60
         value: 60
       - label: 'Red'
         value: 40
