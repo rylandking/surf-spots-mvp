@@ -226,7 +226,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: feb
@@ -239,7 +239,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: mar
@@ -252,7 +252,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: apr
@@ -265,7 +265,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: may
@@ -278,7 +278,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: jun
@@ -291,7 +291,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: jul
@@ -304,7 +304,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: aug
@@ -317,7 +317,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: sep
@@ -330,7 +330,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: oct
@@ -343,7 +343,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: nov
@@ -356,7 +356,7 @@ fields:
         value: 80
       - label: 60
         value: 60
-      - label: 'Red'
+      - label: 40
         value: 40
   - type: enum
     name: dec
