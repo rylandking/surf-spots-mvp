@@ -389,7 +389,7 @@ fields:
     options:
       - label: 'a-zoo'
         value: 'a-zoo'
-      - label: 'Spread Out'
+      - label: 'spread-out'
         value: 'spread-out'
       - label: 'Uncrowded'
         value: 'uncrowded'
