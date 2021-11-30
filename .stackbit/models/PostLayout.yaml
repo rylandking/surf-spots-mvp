@@ -220,7 +220,7 @@ fields:
     label: 📅 How good is January?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -233,7 +233,7 @@ fields:
     label: 📅 How good is February?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -246,7 +246,7 @@ fields:
     label: 📅 How good is March?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -259,7 +259,7 @@ fields:
     label: 📅 How good is April?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -272,7 +272,7 @@ fields:
     label: 📅 How good is May?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -285,7 +285,7 @@ fields:
     label: 📅 How good is June?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -298,7 +298,7 @@ fields:
     label: 📅 How good is July?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -311,7 +311,7 @@ fields:
     label: 📅 How good is August?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -324,7 +324,7 @@ fields:
     label: 📅 How good is September?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -337,7 +337,7 @@ fields:
     label: 📅 How good is October?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
@@ -350,7 +350,7 @@ fields:
     label: 📅 How good is November?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
+      - label: 100
         value: 100
       - label: 'Light Green'
         value: 80
