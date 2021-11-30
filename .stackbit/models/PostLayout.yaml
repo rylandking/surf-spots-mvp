@@ -391,7 +391,7 @@ fields:
         value: 'a-zoo'
       - label: 'spread-out'
         value: 'spread-out'
-      - label: 'Uncrowded'
+      - label: 'uncrowded'
         value: 'uncrowded'
   - type: enum
     name: localismLevel
