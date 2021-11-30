@@ -39,9 +39,7 @@ crowdLevel: spread-out
 localismLevel: 'no'
 accessibility: park
 isPowerful: false
-waterTemp:
-  label: Wetsuit
-  value: wetsuit
+waterTemp: wetsuit
 isWalkable: false
 isSharky: false
 isEasyToGetWaves: true
