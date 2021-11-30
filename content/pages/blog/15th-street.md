@@ -37,7 +37,7 @@ aug: '100'
 sep: '100'
 oct: '100'
 nov: '100'
-dec: '80'
+dec: '100'
 beachComfort:
   label: Comfortable
   value: comfortable
