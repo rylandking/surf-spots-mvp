@@ -14,9 +14,7 @@ bestTide: medium
 bestWind: E
 bestSwellDirection: S
 waveType: beach
-bottomType:
-  label: Sand
-  value: sand
+bottomType: sand
 isBigWave: false
 isBarrel: 'no'
 waveDirection: both
