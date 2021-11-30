@@ -415,7 +415,7 @@ fields:
         value: 'hike'
       - label: 'boat'
         value: 'boat'
-      - label: 'Right Out Front'
+      - label: 'right Out Front'
         value: 'in-front'
   - type: boolean
     name: isPowerful
