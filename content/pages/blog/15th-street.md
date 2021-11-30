@@ -34,9 +34,7 @@ sep: '100'
 oct: '100'
 nov: '100'
 dec: '100'
-beachComfort:
-  label: Comfortable
-  value: comfortable
+beachComfort: comfortable
 crowdLevel: spread-out
 localismLevel: 'no'
 accessibility:
