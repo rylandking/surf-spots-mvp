@@ -29,9 +29,7 @@ bestBoard: long-board
 jan:
   label: Green
   value: 100
-feb:
-  label: Green
-  value: 100
+feb: 100
 mar: '60'
 apr: '60'
 may: '80'
