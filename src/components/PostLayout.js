@@ -19,7 +19,7 @@ export default function PostLayout(props) {
     let titleContraction;
     let surfSpotLat = page.surfSpotLatLng[0].lat;
     let surfSpotLng = page.surfSpotLatLng[0].lng;
-    let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${surfSpotLat},${surfSpotLng}`
+    let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${surfSpotLat},${surfSpotLng}`;
     let mapZoom = page.mapZoom;
     let parkingLatLng = page.parkingLatLng;
 
@@ -60,7 +60,7 @@ export default function PostLayout(props) {
     let sep = page.sep.value;
     let oct = page.oct.value;
     let nov = page.nov.value;
-    let dec = page.dec.value;
+    let dec = page.dec;
     let bestMonths = [];
     let bestMonthsPhrase;
 
@@ -326,26 +326,24 @@ export default function PostLayout(props) {
     }
 
     // Set forecastPhrase
-    if (forecastLink.includes("magicseaweed")) {
-        forecastPhrase = "Magicseaweed"
-    } else if (forecastLink.includes("surfline")) {
-        forecastPhrase = "Surfline"
-    } else if (forecastLink.includes("surf-forecast")) {
-        forecastPhrase = "Surf-Forecast.com"
-    } else if (forecastLink.includes("shaka")) {
-        forecastPhrase = "Shaka Bay"
-    } else if (forecastLink.includes("yosurfer")) {
-        forecastPhrase = "Yo Surfer"
+    if (forecastLink.includes('magicseaweed')) {
+        forecastPhrase = 'Magicseaweed';
+    } else if (forecastLink.includes('surfline')) {
+        forecastPhrase = 'Surfline';
+    } else if (forecastLink.includes('surf-forecast')) {
+        forecastPhrase = 'Surf-Forecast.com';
+    } else if (forecastLink.includes('shaka')) {
+        forecastPhrase = 'Shaka Bay';
+    } else if (forecastLink.includes('yosurfer')) {
+        forecastPhrase = 'Yo Surfer';
     }
 
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
-                <article className="colors-a px-4 sm:px-8 py-14 lg:py-20">
-                    <div className="max-w-screen-2xl mx-auto">
-                        <header className="max-w-screen-md mx-auto mb-12 text-center">
-                            {title && <h1 data-sb-field-path="title">{title} Surf Spot</h1>}
-                        </header>
+                <article className="px-4 colors-a sm:px-8 py-14 lg:py-20">
+                    <div className="mx-auto max-w-screen-2xl">
+                        <header className="max-w-screen-md mx-auto mb-12 text-center">{title && <h1 data-sb-field-path="title">{title} Surf Spot</h1>}</header>
                         <SurfSpotSection
                             titleContraction={titleContraction}
                             skillPhrase={skillPhrase}
@@ -368,7 +366,7 @@ export default function PostLayout(props) {
                             localsDescription={localsDescription}
                         />
                         {page.markdown_content && (
-                            <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
+                            <Markdown options={{ forceBlock: true }} className="max-w-screen-md mx-auto sb-markdown" data-sb-field-path="markdown_content">
                                 {page.markdown_content}
                             </Markdown>
                         )}

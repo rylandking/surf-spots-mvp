@@ -17,7 +17,7 @@ fields:
           label: Latitude
         - type: number
           name: long
-          label: Longitude    
+          label: Longitude
   - type: number
     name: mapZoom
     label: 🔎 Map zoom
@@ -32,7 +32,7 @@ fields:
           label: Latitude
         - type: number
           name: long
-          label: Longitude              
+          label: Longitude
   - type: enum
     name: skill
     label: 🏄🏽‍♀️ Skill level
@@ -363,14 +363,10 @@ fields:
     label: 📅 How good is December?
     controlType: 'dropdown'
     options:
-      - label: 'Green'
-        value: 100
-      - label: 'Light Green'
-        value: 80
-      - label: 'Yellow'
-        value: 60
-      - label: 'Red'
-        value: 40
+      - value: 100
+      - value: 80
+      - value: 60
+      - value: 40
   - type: enum
     name: beachComfort
     label: 🏖 How comfortable is the beach?
@@ -473,7 +469,7 @@ fields:
           label: Latitude
         - type: number
           name: lng
-          label: Longitude    
+          label: Longitude
   - type: markdown
     name: localsDescription
     label: 📝 Local description
