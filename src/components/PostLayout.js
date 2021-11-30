@@ -59,7 +59,7 @@ export default function PostLayout(props) {
     let aug = page.aug.value;
     let sep = page.sep.value;
     let oct = page.oct.value;
-    let nov = page.nov.value;
+    let nov = Number(page.nov.value;
     let dec = Number(page.dec);
     let bestMonths = [];
     let bestMonthsPhrase;
