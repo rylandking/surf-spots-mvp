@@ -37,9 +37,7 @@ dec: '100'
 beachComfort: comfortable
 crowdLevel: spread-out
 localismLevel: 'no'
-accessibility:
-  label: Park
-  value: park
+accessibility: park
 isPowerful: false
 waterTemp:
   label: Wetsuit
