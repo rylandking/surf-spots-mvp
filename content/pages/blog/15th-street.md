@@ -38,9 +38,7 @@ may: '80'
 jun:
   label: Green
   value: 100
-jul:
-  label: Green
-  value: 100
+jul: 100
 aug: 100
 sep: 100
 oct: 100
