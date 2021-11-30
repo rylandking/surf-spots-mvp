@@ -130,15 +130,15 @@ fields:
     label: 🌊 Wave type
     controlType: 'dropdown'
     options:
-      - label: Beach
+      - label: beach
         value: 'beach'
-      - label: Point
+      - label: point
         value: 'point'
-      - label: Reef
+      - label: reef
         value: 'reef'
-      - label: Rockreef
+      - label: rockreef
         value: 'rockreef'
-      - label: Slab
+      - label: slab
         value: 'slab'
   - type: enum
     name: bottomType
