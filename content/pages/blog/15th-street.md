@@ -26,9 +26,7 @@ waveQuality: '4'
 forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: 'https://youtu.be/VuQ23mhyBV8'
 bestBoard: long-board
-jan:
-  label: Green
-  value: 100
+jan: 100
 feb: 100
 mar: '60'
 apr: '60'
