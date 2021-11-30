@@ -9,7 +9,7 @@ parkingLatLng:
     lng: -117.267395
 skill: intermediate
 bestSize: 5-7 ft
-bestPeriod: 13-16 sec
+bestPeriod: 10-13 sec
 bestTide: medium
 bestWind: E
 bestSwellDirection: S
