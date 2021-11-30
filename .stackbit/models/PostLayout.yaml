@@ -363,10 +363,14 @@ fields:
     label: 📅 How good is December?
     controlType: 'dropdown'
     options:
-      - value: 100
-      - value: 80
-      - value: 60
-      - value: 40
+      - label: 100
+        value: 100
+      - label: 80
+        value: 80
+      - label: 60
+        value: 60
+      - label: 40
+        value: 40
   - type: enum
     name: beachComfort
     label: 🏖 How comfortable is the beach?
