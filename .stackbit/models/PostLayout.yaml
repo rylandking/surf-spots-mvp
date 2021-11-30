@@ -425,9 +425,9 @@ fields:
     label: 🌡 Water temperature
     controlType: 'dropdown'
     options:
-      - label: Wetsuit
+      - label: wetsuit
         value: wetsuit
-      - label: Trunks
+      - label: trunks
         value: trunks
   - type: boolean
     name: isWalkable
