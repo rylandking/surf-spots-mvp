@@ -26,17 +26,17 @@ waveQuality: '4'
 forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: 'https://youtu.be/VuQ23mhyBV8'
 bestBoard: long-board
-jan: 100
-feb: 100
+jan: '100'
+feb: '100'
 mar: '60'
 apr: '60'
 may: '80'
-jun: 100
-jul: 100
-aug: 100
-sep: 100
-oct: 100
-nov: 100
+jun: '100'
+jul: '100'
+aug: '100'
+sep: '100'
+oct: '100'
+nov: '100'
 dec: '80'
 beachComfort:
   label: Comfortable
