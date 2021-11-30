@@ -376,11 +376,11 @@ fields:
     label: 🏖 How comfortable is the beach?
     controlType: 'dropdown'
     options:
-      - label: 'Comfortable'
+      - label: 'comfortable'
         value: 'comfortable'
-      - label: 'Semi-comfortable'
+      - label: 'semi-comfortable'
         value: 'semi-comfortable'
-      - label: 'No Beach'
+      - label: 'no-beach'
         value: 'no-beach'
   - type: enum
     name: crowdLevel
