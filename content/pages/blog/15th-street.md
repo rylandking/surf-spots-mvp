@@ -50,9 +50,7 @@ sep:
 oct:
   label: Green
   value: 100
-nov:
-  label: Green
-  value: 100
+nov: 100
 dec: '80'
 beachComfort:
   label: Comfortable
