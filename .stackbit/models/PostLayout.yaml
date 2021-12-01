@@ -17,7 +17,7 @@ fields:
     label: 🔎 Map zoom
   - type: number
     name: parkingLat
-    label: 📍 Parking Longitude
+    label: 📍 Parking Latitude
   - type: number
     name: parkingLng
     label: 📍 Parking Longitude
