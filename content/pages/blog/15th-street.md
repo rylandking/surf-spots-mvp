@@ -4,7 +4,7 @@ surfSpotLat: 32.959027
 surfSpotLng: -117.269313
 mapZoom: 15
 parkingLat: 32.961273
-parkingLng:
+parkingLng: -117.267395
 parkingLatLng:
   - lat: 32.961273
     lng: -117.267395
