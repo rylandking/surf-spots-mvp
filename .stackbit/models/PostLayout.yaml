@@ -19,7 +19,7 @@ fields:
     name: parkingLat
     label: 📍 Parking Longitude
   - type: number
-    name: parkingLat
+    name: parkingLng
     label: 📍 Parking Longitude
   - type: list
     name: parkingLatLng
