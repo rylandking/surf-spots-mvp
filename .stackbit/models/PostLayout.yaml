@@ -21,18 +21,6 @@ fields:
   - type: number
     name: parkingLng
     label: 🚗 Parking Longitude
-  - type: list
-    name: parkingLatLng
-    label: 🚗 Parking Coordinates
-    items:
-      type: object
-      fields:
-        - type: number
-          name: lat
-          label: Latitude
-        - type: number
-          name: long
-          label: Longitude
   - type: enum
     name: skill
     label: 🏄🏽‍♀️ Skill level
