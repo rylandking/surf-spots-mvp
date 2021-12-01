@@ -174,10 +174,10 @@ export default function PostLayout(props) {
     }
 
     // Set waveQuality phrase
-    if (waveQuality === '1 star') {
+    if (waveQuality === '1 Star') {
         stars = '1';
         starsDesc = 'for the desperate';
-    } else if (waveQuality === '2 stars') {
+    } else if (waveQuality === '2 Stars') {
         stars = '2';
         starsDesc = 'a good time if you need to get wet';
     } else if (waveQuality === '3 stars') {
