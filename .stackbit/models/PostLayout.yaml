@@ -7,7 +7,7 @@ fields:
     name: title
     label: 🆔 Surf spot name
   - type: number
-    name: mapZoom
+    name: surfSpotLat
     label: 🔎 Map zoom
   - type: list
     name: surfSpotCoords
