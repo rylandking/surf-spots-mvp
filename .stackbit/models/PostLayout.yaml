@@ -452,10 +452,10 @@ fields:
     label: 🔐 Airport code
   - type: number
     name: airportLat
-    label: 📍 Surf Spot Latitude
+    label: 📍 Airport Latitude
   - type: number
     name: airportLng
-    label: 📍 Surf Spot Longitude    
+    label: 📍 Airport Longitude    
   - type: list
     name: airportCoords
     label: ✈️ Airport Coordinates
