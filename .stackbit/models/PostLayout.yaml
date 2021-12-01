@@ -8,7 +8,7 @@ fields:
     label: 🆔 Surf spot name
   - type: number
     name: surfSpotLat
-    label: 🔎 Surf Spot Latitude
+    label: 📍 Surf Spot Latitude
   - type: list
     name: surfSpotCoords
     label: 📍 Surf Spot Coordinates
