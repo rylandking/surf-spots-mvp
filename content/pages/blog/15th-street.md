@@ -52,7 +52,7 @@ lessonsNearby: false
 rentalsNearby: false
 airportName: San Diego International Airport
 airportCode: SAN
-airportLatLng:
+airportCoords:
   - lat: 32.731507
     lng: -117.200598
 localsDescription: >-
