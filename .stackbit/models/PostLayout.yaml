@@ -450,6 +450,12 @@ fields:
   - type: string
     name: airportCode
     label: 🔐 Airport code
+  - type: number
+    name: surfSpotLat
+    label: 📍 Surf Spot Latitude
+  - type: number
+    name: surfSpotLng
+    label: 📍 Surf Spot Longitude    
   - type: list
     name: airportCoords
     label: ✈️ Airport Coordinates
