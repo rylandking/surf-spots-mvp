@@ -10,7 +10,7 @@ fields:
     name: surfSpotLat
     label: 📍 Surf Spot Latitude
   - type: number
-    name: surfSpotLat
+    name: surfSpotLng
     label: 📍 Surf Spot Latitude
   - type: list
     name: surfSpotCoords
