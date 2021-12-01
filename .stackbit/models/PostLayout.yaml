@@ -158,7 +158,7 @@ fields:
     controlType: 'dropdown'
     options:
       - label: 5 stars
-        value: 5
+        value: 5 stars
       - label: 4 stars
         value: 4
       - label: 3 stars
