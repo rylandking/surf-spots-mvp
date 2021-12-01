@@ -162,9 +162,9 @@ fields:
       - label: 4 stars
         value: 4 stars
       - label: 3 stars
-        value: 4 stars
+        value: 3 stars
       - label: 2 stars
-        value: 4 stars
+        value: 2 stars
       - label: 1 star
         value: 1
   - type: boolean
