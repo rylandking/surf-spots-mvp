@@ -83,7 +83,8 @@ export default function PostLayout(props) {
 
     let airportName;
     let airportCode;
-    let airportCoords;
+    let airportLat;
+    let airportLng;
     let localsDescription = page.localsDescription;
 
     // Set surf spot contraction
