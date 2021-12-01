@@ -52,9 +52,6 @@ airportName: San Diego International Airport
 airportCode: SAN
 airportLat: 32.731507
 airportLng: -117.200598
-airportCoords:
-  - lat: 32.731507
-    lng: -117.200598
 localsDescription: >-
   Super fun intermediate beach break waves with a killer beach and grassy area
   for families and friends. One of those spots that you can almost always have
