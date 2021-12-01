@@ -19,11 +19,10 @@ export default function PostLayout(props) {
     let titleContraction;
     let surfSpotLat = page.surfSpotLat;
     let surfSpotLng = page.surfSpotLng;
-
-    let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${parkingLat},${parkingLng}`;
     let mapZoom = page.mapZoom;
     let parkingLat = page.parkingLat;
     let parkingLng = page.parkingLng;
+    let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${parkingLat},${parkingLng}`;
     let skill = page.skill;
     let skillPhrase;
     let bestSize = page.bestSize;
