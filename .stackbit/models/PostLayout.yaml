@@ -455,19 +455,7 @@ fields:
     label: 📍 Airport Latitude
   - type: number
     name: airportLng
-    label: 📍 Airport Longitude    
-  - type: list
-    name: airportCoords
-    label: ✈️ Airport Coordinates
-    items:
-      type: object
-      fields:
-        - type: number
-          name: lat
-          label: Latitude
-        - type: number
-          name: lng
-          label: Longitude
+    label: 📍 Airport Longitude
   - type: markdown
     name: localsDescription
     label: 📝 Local description
