@@ -12,18 +12,6 @@ fields:
   - type: number
     name: surfSpotLng
     label: 📍 Surf Spot Longitude
-  - type: list
-    name: surfSpotCoords
-    label: 📍 Surf Spot Coordinates
-    items:
-      type: object
-      fields:
-        - type: number
-          name: lat
-          label: Latitude
-        - type: number
-          name: long
-          label: Longitude
   - type: number
     name: mapZoom
     label: 🔎 Map zoom
