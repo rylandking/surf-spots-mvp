@@ -180,13 +180,13 @@ export default function PostLayout(props) {
     } else if (waveQuality === '2 Stars') {
         stars = '2';
         starsDesc = 'a good time if you need to get wet';
-    } else if (waveQuality === '3 stars') {
+    } else if (waveQuality === '3 Stars') {
         stars = '3';
         starsDesc = 'pretty fun';
-    } else if (waveQuality === '4 stars') {
+    } else if (waveQuality === '4 Stars') {
         stars = '4';
         starsDesc = 'super fun';
-    } else if (waveQuality === '5 stars') {
+    } else if (waveQuality === '5 Stars') {
         stars = '5';
         starsDesc = 'world class';
     }
