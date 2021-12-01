@@ -16,7 +16,7 @@ fields:
     name: mapZoom
     label: 🔎 Map zoom
   - type: number
-    name: surfSpotLng
+    name: parkingLng
     label: 📍 Surf Spot Longitude
   - type: list
     name: parkingLatLng
