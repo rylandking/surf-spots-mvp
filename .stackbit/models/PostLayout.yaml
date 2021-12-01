@@ -172,7 +172,7 @@ fields:
     label: 🌊 Big wave spot?
     default: false
   - type: enum
-    name: isBarrel
+    name: doesBarrel
     label: 🛢 Does it barrel?
     controlType: 'dropdown'
     options:
