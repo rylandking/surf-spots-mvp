@@ -21,6 +21,8 @@ export default function PostLayout(props) {
 
     let surfSpotLat = page.surfSpotLat;
     let surfSpotLng = page.surfSpotLng;
+    console.log(surfSpotLat, surfSpotLng);
+
     let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${surfSpotLat},${surfSpotLng}`;
     let mapZoom = page.mapZoom;
     let parkingLatLng = page.parkingLatLng;
