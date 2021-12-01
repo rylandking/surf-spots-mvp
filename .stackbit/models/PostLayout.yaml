@@ -15,6 +15,9 @@ fields:
   - type: number
     name: mapZoom
     label: 🔎 Map zoom
+  - type: number
+    name: surfSpotLng
+    label: 📍 Surf Spot Longitude
   - type: list
     name: parkingLatLng
     label: 🚗 Parking Coordinates
