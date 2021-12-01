@@ -1,6 +1,6 @@
 ---
 title: 15th-street
-surfSpotLatLng:
+surfSpotCoords:
   - lat: 32.959027
     lng: -117.269313
 mapZoom: 15

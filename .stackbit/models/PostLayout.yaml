@@ -7,7 +7,7 @@ fields:
     name: title
     label: 🆔 Surf spot name
   - type: list
-    name: surfSpotLatLng
+    name: surfSpotCoords
     label: 📍 Surf Spot Coordinates
     items:
       type: object

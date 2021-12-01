@@ -17,8 +17,8 @@ export default function PostLayout(props) {
         .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
         .join(' ');
     let titleContraction;
-    let surfSpotLat = page.surfSpotLatLng[0].lat;
-    let surfSpotLng = page.surfSpotLatLng[0].lng;
+    let surfSpotLat = page.surfSpotCoords[0].lat;
+    let surfSpotLng = page.surfSpotCoords[0].lng;
     let directionsLink = `https://www.google.com/maps?saddr=My+Location&daddr=${surfSpotLat},${surfSpotLng}`;
     let mapZoom = page.mapZoom;
     let parkingLatLng = page.parkingLatLng;
