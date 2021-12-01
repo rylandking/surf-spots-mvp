@@ -14,7 +14,7 @@ bestSwellDirection: S
 waveType: beach
 bottomType: sand
 isBigWave: false
-doesBarrel: 'no'
+barrel: no
 waveDirection: both
 waveQuality: '4'
 forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
