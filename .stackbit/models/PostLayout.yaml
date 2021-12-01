@@ -11,7 +11,7 @@ fields:
     label: 📍 Surf Spot Latitude
   - type: number
     name: surfSpotLng
-    label: 📍 Surf Spot Latitude
+    label: 📍 Surf Spot Longitude
   - type: list
     name: surfSpotCoords
     label: 📍 Surf Spot Coordinates
