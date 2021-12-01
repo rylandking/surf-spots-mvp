@@ -455,7 +455,7 @@ fields:
     label: ✈️ Airport Latitude
   - type: number
     name: airportLng
-    label: 📍 Airport Longitude
+    label: ✈️ Airport Longitude
   - type: markdown
     name: localsDescription
     label: 📝 Local description
