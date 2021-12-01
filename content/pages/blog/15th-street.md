@@ -3,8 +3,8 @@ title: 15th-street
 surfSpotLat: 32.959027
 surfSpotLng: -117.269313
 mapZoom: 15
-parkingLatLng:
-parkingLatLng:
+parkingLat:
+parkingLng:
 parkingLatLng:
   - lat: 32.961273
     lng: -117.267395
