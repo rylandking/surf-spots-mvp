@@ -452,7 +452,7 @@ fields:
     label: 🔐 Airport code
   - type: number
     name: airportLat
-    label: 📍 Airport Latitude
+    label: Airport Latitude
   - type: number
     name: airportLng
     label: 📍 Airport Longitude
