@@ -6,6 +6,9 @@ fields:
   - type: string
     name: title
     label: 🆔 Surf spot name
+  - type: number
+    name: mapZoom
+    label: 🔎 Map zoom
   - type: list
     name: surfSpotCoords
     label: 📍 Surf Spot Coordinates
