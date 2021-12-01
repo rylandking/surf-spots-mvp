@@ -20,7 +20,7 @@ fields:
     label: 🚗 Parking Latitude
   - type: number
     name: parkingLng
-    label: 📍 Parking Longitude
+    label: 🚗 Parking Longitude
   - type: list
     name: parkingLatLng
     label: 🚗 Parking Coordinates
