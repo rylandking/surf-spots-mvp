@@ -18,6 +18,9 @@ fields:
   - type: number
     name: parkingLat
     label: 📍 Parking Longitude
+  - type: number
+    name: parkingLat
+    label: 📍 Parking Longitude
   - type: list
     name: parkingLatLng
     label: 🚗 Parking Coordinates
