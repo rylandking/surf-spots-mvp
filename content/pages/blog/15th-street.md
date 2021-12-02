@@ -45,9 +45,8 @@ isFarFromShore: false
 isBeginnerFriendly: false
 isUncrowded: false
 isShallow: false
+isRipCurrents: false
 isCompetitive: false
-lessonsNearby: false
-rentalsNearby: false
 airportName: San Diego International Airport
 airportCode: SAN
 airportLat: 32.731507

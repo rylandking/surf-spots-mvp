@@ -77,9 +77,8 @@ export default function PostLayout(props) {
     let isBeginnerFriendly;
     let isUncrowded;
     let isShallow;
+    let isRipCurrents;
     let isCompetitive;
-    let lessonsNearby;
-    let rentalsNearby;
 
     let airportName;
     let airportCode;

@@ -436,14 +436,11 @@ fields:
     name: isShallow
     label: 😱 Is shallow?
   - type: boolean
+    name: isRipCurrents
+    label: 🌊 Is rip currents?
+  - type: boolean
     name: isCompetitive
     label: 🏁 Is competitive?
-  - type: boolean
-    name: lessonsNearby
-    label: 🛖 Surf lessons nearby?
-  - type: boolean
-    name: rentalsNearby
-    label: 🏡 Surf rentals nearby?
   - type: string
     name: airportName
     label: 📇 Airport name
