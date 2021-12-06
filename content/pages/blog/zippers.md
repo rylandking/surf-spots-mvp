@@ -48,8 +48,7 @@ localismLevel: be-respectful
 bestWind: N
 localsDescription: >-
  <p>Super fun, fast running, intermediate righthand point break that runs close to shore with a high performance wave face. It’s fun on all board types and you’ll likely see people riding all different sized boards in the lineup.</p>
-
-  <p>There’s two sections to the wave. The outside section stands up and moves pretty quick down he line. You want to keep and eye on the shoulder as you paddle in to get a radar on how fast you need to get moving down the line. Once you’re up the wave face is just asking for some top to bottom turns. Make sure to not push your turns too far or the section might pass you by. In other words keep your speed as you go down the line. The inside section flattens out a bit. It’s great for long, arching cutbacks.</p>
+ <p>There’s two sections to the wave. The outside section stands up and moves pretty quick down he line. You want to keep and eye on the shoulder as you paddle in to get a radar on how fast you need to get moving down the line. Once you’re up the wave face is just asking for some top to bottom turns. Make sure to not push your turns too far or the section might pass you by. In other words keep your speed as you go down the line. The inside section flattens out a bit. It’s great for long, arching cutbacks.</p>
 
   <p>It only works here on summertime Southwest swells. The waves have their best shape on the lower tide. The higher tides can cause some backwash that make the wave faces fat and bouncy. It’s best here with a light Northerly breeze. It does get super windy here most afternoons so expect to be up and in the water early if you want to get it at it’s best.</p>
 
