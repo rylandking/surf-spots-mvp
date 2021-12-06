@@ -173,19 +173,19 @@ export default function PostLayout(props) {
     }
 
     // Set waveQuality phrase
-    if (waveQuality === '1') {
+    if (waveQuality === '1 Star') {
         stars = '1';
         starsDesc = 'for the desperate';
-    } else if (waveQuality === '2') {
+    } else if (waveQuality === '2 Stars') {
         stars = '2';
         starsDesc = 'a good time if you need to get wet';
-    } else if (waveQuality === '3') {
+    } else if (waveQuality === '3 Stars') {
         stars = '3';
         starsDesc = 'pretty fun';
-    } else if (waveQuality === '4') {
+    } else if (waveQuality === '4 Stars') {
         stars = '4';
         starsDesc = 'super fun';
-    } else if (waveQuality === '5') {
+    } else if (waveQuality === '5 Stars') {
         stars = '5';
         starsDesc = 'world class';
     }

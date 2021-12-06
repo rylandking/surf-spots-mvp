@@ -16,7 +16,7 @@ bottomType: sand
 isBigWave: false
 doesBarrel: 'no'
 waveDirection: both
-waveQuality: '4'
+waveQuality: '4 Stars'
 forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
 videoLink: 'https://youtu.be/VuQ23mhyBV8'
 bestBoard: long-board
