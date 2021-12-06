@@ -53,8 +53,8 @@ localsDescription: >-
 
   <p>It only works here on summertime Southwest swells. The waves have their best shape on the lower tide. The higher tides can cause some backwash that make the wave faces fat and bouncy. It’s best here with a light Northerly breeze. It does get super windy here most afternoons so expect to be up and in the water early if you want to get it at it’s best.</p>
 
-<p>It can get crowded when it’s good, but the vibe in the lineup is usually mellow. With that said, please paddle into the line up respectfully, surf with etiquette and always hold on to your board here.</p>
-<p>The beach is absolutely gorgeous and is a great place for families and friends to hang at. Their are a few villas and resorts you can stay at right next to the wave.</p>
+  <p>It can get crowded when it’s good, but the vibe in the lineup is usually mellow. With that said, please paddle into the line up respectfully, surf with etiquette and always hold on to your board here.</p>
+  <p>The beach is absolutely gorgeous and is a great place for families and friends to hang at. Their are a few villas and resorts you can stay at right next to the wave.</p>
 bottomSections: []
 layout: PostLayout
 ---
