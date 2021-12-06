@@ -57,6 +57,7 @@ export default function SurfSpotSection({
                 <p className="mb-2">{localsDescription}</p>
             : }
             <h3 className="mt-6 mb-2">Want something specific?</h3>
+            </div>
             <p className="mb-2">I have more info in my database. Please email me (heyryland @ gmail) what else would be helpful.</p>
         </div>
     );
