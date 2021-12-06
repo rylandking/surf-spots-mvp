@@ -41,7 +41,7 @@ export default function SurfSpotSection({
             </p>
             <div id="videoPhrase"></div>
             <p className="mb-2">
-                You can{' '}
+                Here is{' '}
                 <a href={forecastLink} target="_blank" rel="noreferrer">
                     find {titleContraction} surf report and surf forecast here provided by {forecastPhrase}.
                 </a>
