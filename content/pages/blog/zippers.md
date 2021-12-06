@@ -1,52 +1,52 @@
 ---
-isPowerful: false
-airportName: 'Perth International Airport'
-isCompetitive: false
-beachComfort: comfortable
-apr: '80'
-dec: '60'
-forecastLink: 'https://magicseaweed.com/Yallingup-Surf-Report/1292/'
-isShallow: false
-isEasyToGetWaves: true
-airportCode: PER
-bestSize: '5-7 ft'
-isBeginnerFriendly: true
-crowdLevel: 'spread out crowd'
-parkingLat: -33.63487964482091
-videoLink: 'https://www.youtube.com/watch?v=ecyXtZVPZTM'
-isFarFromShore: false
-may: '100'
-skill: intermediate
-nov: '60'
-oct: '60'
-isRipCurrents: false
-airportLng: 115.974239
-airportLat: -31.941987
-sep: '80'
-parkingLng: 115.03002462134532
-bestBoard: funboard
-bestPeriod: '13-16 sec'
-spotNoteOld: ""
-bestWind: E
-surfSpotLng: 115.02410230384044
-surfSpotLat: -33.635031499896826
-feb: '60'
-barrel: sometimes
-waveDirection: both
-bestTide: medium
-jan: '60'
-jun: '100'
-waveQuality: '5 Stars'
-bestSwellDirection: SW
-isSharky: false
-title: yallingup
-localismLevel: be-respectful
-waveType: rockreef
-isWalkable: false
-bottomType: rockreef
-mar: '60'
 aug: '100'
+videoLink: 'https://www.youtube.com/watch?v=LVR0l4tCQdU'
+isWalkable: true
+bestTide: medium
+bottomType: sand
+oct: '60'
+bestBoard: funboard
+spotNoteOld: ""
+airportCode: MEL
+may: '100'
+mar: '60'
+crowdLevel: 'spread out crowd'
+forecastLink: 'https://www.surfline.com/surf-report/wye-river/584204204e65fad6a77092b5'
+waveDirection: both
+isBeginnerFriendly: true
+waveQuality: '4 Stars'
+bestPeriod: '13-16 sec'
+beachComfort: comfortable
+airportLng: 144.848938
+airportLat: -37.670528
+parkingLat: -38.63548123684738
+isRipCurrents: false
+isSharky: false
+surfSpotLng: 143.89540884094572
+surfSpotLat: -38.63682108208229
+skill: intermediate
+isPowerful: false
+dec: '60'
+isCompetitive: false
 jul: '100'
+feb: '60'
+jun: '100'
+title: wye-river
+nov: '60'
+isShallow: false
+bestWind: NW
+sep: '80'
+airportName: 'Melbourne International Airport'
+isFarFromShore: false
+bestSwellDirection: S
+barrel: sometimes
+waveType: beach
+parkingLng: 143.89109316664076
+isEasyToGetWaves: true
+localismLevel: be-respectful
+apr: '80'
+jan: '60'
+bestSize: '3-5 ft'
 localsDescription: >-
  
 bottomSections: []
