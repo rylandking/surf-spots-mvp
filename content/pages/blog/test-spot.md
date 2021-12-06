@@ -1,56 +1,56 @@
 ---
-bestBoard: long-board
-isPowerful: false
-localismLevel: no
-waveDirection: both
-videoLink: 'https://youtu.be/VuQ23mhyBV8'
-oct: '100'
-bestPeriod: '13-16 sec'
-jan: '100'
+isRipCurrents: true
+airportName: 'Los Angeles International Airport'
+jul: '100'
+isShallow: true
+isBeginnerFriendly: false
+jan: '60'
+airportLng: -118.399802
+airportLat: 33.94326
+aug: '100'
+localismLevel: be-respectful
+bestTide: all
+spotNoteOld: 'Fun, pitching beach break with waves for almost every skill level. Beginner waves are at the North of the beach, expert waves are to the South. The further South you go the more top-to-bottom waves you''ll start to see. You can definitely find a good barrel here and there with a solid summer South swell. Park for free along the highway or there is a paid lot to use right across from the beach. Grab your post surf lunch grub at the classic Mexican spot Coral Beach Cantina.'
+crowdLevel: spread-out
 sep: '100'
 isWalkable: false
-airportLng: -117.200598
-airportLat: 32.731507
-skill: intermediate
-city: encinitas
-isRipCurrents: false
-parkingLat: 32.961273
-bottomType: sand
-mar: '60'
-aug: '100'
-bestSwellDirection: S
-isSharky: false
-spotNoteOld: 'Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.'
-contintent: north-america
-jun: '100'
-jul: '100'
-parkingLng: -117.267395
-airportName: 'San Diego International Airport'
-nov: '100'
-isEasyToGetWaves: true
-apr: '60'
-crowdLevel: spread-out
-bestSize: '5-7 ft'
 may: '80'
-isFarFromShore: false
-forecastLink: 'https://magicseaweed.com/Del-Mar-Surf-Report/3707/'
-isBeginnerFriendly: false
+oct: '80'
+title: zuma-beach
+bestBoard: short-board
+skill: intermediate
+feb: '60'
 waveType: beach
-title: 15th-street
-dec: '100'
-isShallow: false
-feb: '100'
-surfSpotLng: -117.269313
-surfSpotLat: 32.959027
-bestTide: medium
-airportCode: SAN
-barrel: no
-isCompetitive: false
+apr: '100'
+isCompetitive: true
+waveDirection: both
+dec: '60'
+bestPeriod: '13-16 sec'
+bestSwellDirection: S
+contintent: north-america
+videoLink: 'https://www.youtube.com/watch?v=yD3U1sxVNnY'
+isFarFromShore: false
 beachComfort: comfortable
+mar: '60'
+parkingLng: -118.830686
+bestWind: NE
+jun: '100'
+airportCode: LAX
+barrel: sometimes
 waveQuality: '4 Stars'
-bestWind: E
+forecastLink: 'https://magicseaweed.com/Zuma-Beach-County-Park-Surf-Report/853/'
+isSharky: false
+isEasyToGetWaves: true
+isPowerful: true
+bestSize: '5-7 ft'
+surfSpotLng: -118.838056
+surfSpotLat: 34.021333
+bottomType: sand
+city: malibu
+nov: '60'
+parkingLat: 34.022123
 localsDescription: >-
- Super fun intermediate beach break waves with a killer beach and grassy area for families and friends. One of those spots that you can almost always have fun at at any time of the year. Go with a bit of caution in the winter time, as if there is a big winter Northwest swell the waves can become pretty gnarly. Park in the lot just after 18th Street and walk South for a minute or two to get to the waves. Do a fancy meal at Jake’s Del Mar or head out to Board and Brew for a cheaper, more relaxed option after your surf day.
+ Fun, pitching beach break with waves for almost every skill level. Beginner waves are at the North of the beach, expert waves are to the South. The further South you go the more top-to-bottom waves you'll start to see. You can definitely find a good barrel here and there with a solid summer South swell. Park for free along the highway or there is a paid lot to use right across from the beach. Grab your post surf lunch grub at the classic Mexican spot Coral Beach Cantina.
 bottomSections: []
 layout: PostLayout
 ---
