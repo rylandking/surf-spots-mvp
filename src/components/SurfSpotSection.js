@@ -43,7 +43,7 @@ export default function SurfSpotSection({
             <p className="mb-2">
                 Here is{' '}
                 <a href={forecastLink} target="_blank" rel="noreferrer">
-                    find {titleContraction} surf report and surf forecast here provided by {forecastPhrase}.
+                    {titleContraction} surf report and surf forecast here provided by {forecastPhrase}.
                 </a>
             </p>
             <p className="mb-2">
