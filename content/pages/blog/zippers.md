@@ -1,62 +1,56 @@
 ---
+isRipCurrents: true
+airportName: 'Los Angeles International Airport'
 jul: '100'
-isRipCurrents: false
-nov: '40'
-airportName: 'Cabo San Lucas International Airport'
-isFarFromShore: false
-airportCode: CSL
-waveDirection: right
-skill: intermediate
-isEasyToGetWaves: false
-bottomType: sand
-waveQuality: '5 Stars'
-bestSwellDirection: SW
-oct: '60'
-bestSize: '5-7 ft'
-isSharky: false
-apr: '80'
-may: '100'
-airportLng: -109.935012
-airportLat: 22.945036
-bestPeriod: '13-16 sec'
-beachComfort: comfortable
-bestTide: low
-crowdLevel: a-zoo
-isShallow: false
-waveType: point
-feb: '40'
-isPowerful: false
-mar: '60'
-aug: '100'
-parkingLng: -109.717330920309
-jan: '40'
-isWalkable: true
-surfSpotLng: -109.71366836116096
-surfSpotLat: 23.02457867953285
-spotNoteOld: Super fun, fast running, intermediate righthand point break that runs close to shore with a high performance wave face. It’s fun on all board types and you’ll likely see people riding all different sized boards in the lineup.\n\n There’s two sections to the wave. The outside section stands up and moves pretty quick down he line. You want to keep and eye on the shoulder as you paddle in to get a radar on how fast you need to get moving down the line. Once you’re up the wave face is just asking for some top to bottom turns. Make sure to not push your turns too far or the section might pass you by. In other words keep your speed as you go down the line. The inside section flattens out a bit. It’s great for long, arching cutbacks.\n\n It only works here on summertime Southwest swells. The waves have their best shape on the lower tide. The higher tides can cause some backwash that make the wave faces fat and bouncy. It’s best here with a light Northerly breeze. It does get super windy here most afternoons so expect to be up and in the water early if you want to get it at it’s best.\n\n It can get crowded when it’s good, but the vibe in the lineup is usually mellow. With that said, please paddle into the line up respectfully, surf with etiquette and always hold on to your board here.\n\n The beach is absolutely gorgeous and is a great place for families and friends to hang at. Their are a few villas and resorts you can stay at right next to the wave.
-isCompetitive: false
+isShallow: true
 isBeginnerFriendly: false
-videoLink: 'https://youtu.be/s4HkIf8cyhU?t=11'
-barrel: sometimes
-jun: '100'
-bestBoard: funboard
-title: zippers
-forecastLink: 'https://www.surfline.com/surf-report/zippers/5842041f4e65fad6a7708bda'
-dec: '40'
-sep: '80'
-parkingLat: 23.023718339298036
+jan: '60'
+airportLng: -118.399802
+airportLat: 33.94326
+aug: '100'
 localismLevel: be-respectful
-bestWind: N
+bestTide: all
+spotNoteOld: 'Fun, pitching beach break with waves for almost every skill level. Beginner waves are at the North of the beach, expert waves are to the South. The further South you go the more top-to-bottom waves you''ll start to see. You can definitely find a good barrel here and there with a solid summer South swell. Park for free along the highway or there is a paid lot to use right across from the beach. Grab your post surf lunch grub at the classic Mexican spot Coral Beach Cantina.'
+crowdLevel: spread-out
+sep: '100'
+isWalkable: false
+may: '80'
+oct: '80'
+title: zuma-beach
+bestBoard: short-board
+skill: intermediate
+feb: '60'
+waveType: beach
+apr: '100'
+isCompetitive: true
+waveDirection: both
+dec: '60'
+bestPeriod: '13-16 sec'
+bestSwellDirection: S
+contintent: north-america
+videoLink: 'https://www.youtube.com/watch?v=yD3U1sxVNnY'
+isFarFromShore: false
+beachComfort: comfortable
+mar: '60'
+parkingLng: -118.830686
+bestWind: NE
+jun: '100'
+airportCode: LAX
+barrel: sometimes
+waveQuality: '4 Stars'
+forecastLink: 'https://magicseaweed.com/Zuma-Beach-County-Park-Surf-Report/853/'
+isSharky: false
+isEasyToGetWaves: true
+isPowerful: true
+bestSize: '5-7 ft'
+surfSpotLng: -118.838056
+surfSpotLat: 34.021333
+bottomType: sand
+city: malibu
+nov: '60'
+parkingLat: 34.022123
 localsDescription: >-
- Super fun, fast running, intermediate righthand point break that runs close to shore with a high performance wave face. It’s fun on all board types and you’ll likely see people riding all different sized boards in the lineup.
-
- There’s two sections to the wave. The outside section stands up and moves pretty quick down he line. You want to keep and eye on the shoulder as you paddle in to get a radar on how fast you need to get moving down the line. Once you’re up the wave face is just asking for some top to bottom turns. Make sure to not push your turns too far or the section might pass you by. In other words keep your speed as you go down the line. The inside section flattens out a bit. It’s great for long, arching cutbacks.
-
- It only works here on summertime Southwest swells. The waves have their best shape on the lower tide. The higher tides can cause some backwash that make the wave faces fat and bouncy. It’s best here with a light Northerly breeze. It does get super windy here most afternoons so expect to be up and in the water early if you want to get it at it’s best.
-
- It can get crowded when it’s good, but the vibe in the lineup is usually mellow. With that said, please paddle into the line up respectfully, surf with etiquette and always hold on to your board here.
-
- The beach is absolutely gorgeous and is a great place for families and friends to hang at. Their are a few villas and resorts you can stay at right next to the wave.
+ Fun, pitching beach break with waves for almost every skill level. Beginner waves are at the North of the beach, expert waves are to the South. The further South you go the more top-to-bottom waves you'll start to see. You can definitely find a good barrel here and there with a solid summer South swell. Park for free along the highway or there is a paid lot to use right across from the beach. Grab your post surf lunch grub at the classic Mexican spot Coral Beach Cantina.
 bottomSections: []
 layout: PostLayout
 ---
