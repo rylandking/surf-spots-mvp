@@ -51,7 +51,7 @@ export default function SurfSpotSection({
                     Click here for Google Maps directions to {titleContraction} surf parking lot.
                 </a>
             </p>
-            {}
+            {localsDescription.length ? : }
             <h3 className="mt-6 mb-2">Local Description of Surfing {title}</h3>
             <p className="mb-2">{localsDescription}</p>
             <h3 className="mt-6 mb-2">Want something specific?</h3>
