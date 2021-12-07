@@ -44,10 +44,10 @@ export default function PostLayout(props) {
     let forecastLink = page.forecastLink;
     let forecastPhrase;
     let videoLink = page.videoLink;
-    
-    
-    
-    
+
+
+
+
 
     let jan = Number(page.jan);
     let feb = Number(page.feb);
@@ -333,12 +333,11 @@ export default function PostLayout(props) {
                             starsDesc={starsDesc}
                             skill={skill}
                             bestMonthsPhrase={bestMonthsPhrase}
-                            videoPhrase={videoPhrase}
                             forecastLink={forecastLink}
                             forecastPhrase={forecastPhrase}
                             directionsLink={directionsLink}
                             localsDescription={localsDescription}
-                            
+
                             videoLink={videoLink}
                         />
                         {page.markdown_content && (
