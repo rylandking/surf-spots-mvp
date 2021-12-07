@@ -20,7 +20,6 @@ export default function SurfSpotSection({
     forecastPhrase,
     directionsLink,
     localsDescription,
-    videoSearchURL,
     videoLink
 }) {
     useEffect(() => {
@@ -32,7 +31,7 @@ export default function SurfSpotSection({
     let youTubeID;
     let videoEmbed;
     let videoSearchURL;
-    
+
     // Set video phrase
     if (videoLink) {
         if (videoLink.includes('youtu.be')) {
