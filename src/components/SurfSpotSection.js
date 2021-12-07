@@ -24,7 +24,7 @@ export default function SurfSpotSection({
 }) {
     useEffect(() => {
         window.onload = function setVideoPhrase() {
-            document.getElementById('videoPhrase').innerHTML = videoEmbed;
+            document.getElementById('videoEmbed').innerHTML = videoEmbed;
         };
     });
 
