@@ -314,7 +314,6 @@ export default function PostLayout(props) {
 
         videoPhrase = `
             ${videoEmbed}
-            <p class="mb-3">You can <a href="${videoSearchURL}" target="_blank">watch other videos of ${titleContraction} surf here</a></p>
         `;
     } else {
         videoSearchURL = `https://www.google.com/search?q=${title}&tbm=vid`;
