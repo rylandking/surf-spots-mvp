@@ -19,7 +19,6 @@ export default function SurfSpotSection({
     forecastPhrase,
     directionsLink,
     localsDescription,
-    videoLink,
     videoEmbed,
     videoSearchURL
 }) {
