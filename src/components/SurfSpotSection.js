@@ -47,10 +47,6 @@ export default function SurfSpotSection({
 
     } else {
         videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
-
-        videoPhrase = `
-      <p class="mb-2">You can <a href="${videoSearchURL}" target="_blank">watch videos of ${titleContraction} surf here</a>.</p>
-    `;
     }
 
     return (
