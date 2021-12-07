@@ -30,6 +30,7 @@ export default function SurfSpotSection({
     });
     return (
         <div>
+            
             <p className="mb-2">
                 {titleContraction} surf is {skillPhrase} {waveDirection} {waveType} break.
             </p>
