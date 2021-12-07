@@ -41,6 +41,7 @@ export default function SurfSpotSection({
             </p>
             <p class="mb-3">Watch this video of {titleContraction} surf to get a better feel for what the waves are like.</p>
             <div id="videoPhrase"></div>
+            <p class="mb-3"> Remember, this is just one day. Always check the surf report before going.</p>
             <p className="mb-2">
                 Here is{' '}
                 <a href={forecastLink} target="_blank" rel="noreferrer">
