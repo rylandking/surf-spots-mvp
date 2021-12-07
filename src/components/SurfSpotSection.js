@@ -45,9 +45,6 @@ export default function SurfSpotSection({
 
         videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
 
-        videoPhrase = `
-            ${videoEmbed}
-        `;
     } else {
         videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
 
