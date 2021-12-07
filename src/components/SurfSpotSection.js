@@ -28,6 +28,31 @@ export default function SurfSpotSection({
             document.getElementById('videoPhrase').innerHTML = videoPhrase;
         };
     });
+
+    // Set video phrase
+    if (videoLink) {
+        if (videoLink.includes('youtu.be')) {
+            youTubeID = videoLink.split('.be/')[1];
+            youTubeID = youTubeID.split('?')[0];
+        } else {
+            youTubeID = videoLink.split('v=')[1];
+        }
+
+        videoEmbed = `<iframe class="mb-3" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+
+        videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
+
+        videoPhrase = `
+            ${videoEmbed}
+        `;
+    } else {
+        videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
+
+        videoPhrase = `
+      <p class="mb-2">You can <a href="${videoSearchURL}" target="_blank">watch videos of ${titleContraction} surf here</a>.</p>
+    `;
+    }
+
     return (
         <div>
             {videoLink}
