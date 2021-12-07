@@ -31,7 +31,7 @@ export default function SurfSpotSection({
 
     let youTubeID;
     let videoEmbed;
-    
+    let video
     // Set video phrase
     if (videoLink) {
         if (videoLink.includes('youtu.be')) {
