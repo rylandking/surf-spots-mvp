@@ -47,7 +47,7 @@ export default function PostLayout(props) {
     
     
     
-    let videoPhrase;
+    
 
     let jan = Number(page.jan);
     let feb = Number(page.feb);
