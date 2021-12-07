@@ -313,7 +313,7 @@ export default function PostLayout(props) {
     }
 
     // Set video stuff
-        let youTubeID;
+    let youTubeID;
     let videoEmbed;
     let videoSearchURL;
 
