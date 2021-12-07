@@ -29,7 +29,9 @@ export default function SurfSpotSection({
         };
     });
 
-    let youTubeID
+    let youTubeID;
+    let videoEmbed;
+    
     // Set video phrase
     if (videoLink) {
         if (videoLink.includes('youtu.be')) {
