@@ -15,7 +15,6 @@ export default function SurfSpotSection({
     starsDesc,
     skill,
     bestMonthsPhrase,
-    videoPhrase,
     forecastLink,
     forecastPhrase,
     directionsLink,
