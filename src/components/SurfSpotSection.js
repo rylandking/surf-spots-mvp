@@ -39,6 +39,7 @@ export default function SurfSpotSection({
             <p className="mb-2">
                 The best time of year to surf {title} {bestMonthsPhrase}.
             </p>
+            <p class="mb-3">Watch this video of ${titleContraction} surf to get a better feel for what the waves are like.</p>
             <div id="videoPhrase"></div>
             <p className="mb-2">
                 Here is{' '}
