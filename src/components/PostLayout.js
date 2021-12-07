@@ -44,9 +44,9 @@ export default function PostLayout(props) {
     let forecastLink = page.forecastLink;
     let forecastPhrase;
     let videoLink = page.videoLink;
-    let youTubeID;
-    let videoEmbed;
-    let videoSearchURL;
+    
+    
+    
     let videoPhrase;
 
     let jan = Number(page.jan);
