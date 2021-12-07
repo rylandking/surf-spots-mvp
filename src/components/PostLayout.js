@@ -363,6 +363,7 @@ export default function PostLayout(props) {
                             directionsLink={directionsLink}
                             localsDescription={localsDescription}
                             videoSearchURL={videoSearchURL}
+                            videoLink={videoLink}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="max-w-screen-md mx-auto sb-markdown" data-sb-field-path="markdown_content">
