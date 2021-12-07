@@ -314,7 +314,6 @@ export default function PostLayout(props) {
 
         videoPhrase = `
             ${videoEmbed}
-            <p class="mb-3"> Remember, this is just one day. Always check the surf report before going.</p>
             <p class="mb-3">You can <a href="${videoSearchURL}" target="_blank">watch other videos of ${titleContraction} surf here</a></p>
         `;
     } else {
