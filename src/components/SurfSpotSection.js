@@ -19,7 +19,8 @@ export default function SurfSpotSection({
     forecastLink,
     forecastPhrase,
     directionsLink,
-    localsDescription
+    localsDescription,
+    videoSearchURL
 }) {
     useEffect(() => {
         window.onload = function setVideoPhrase() {
