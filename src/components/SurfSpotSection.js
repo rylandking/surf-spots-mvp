@@ -15,17 +15,19 @@ export default function SurfSpotSection({
     starsDesc,
     skill,
     bestMonthsPhrase,
-    videoPhrase,
     forecastLink,
     forecastPhrase,
     directionsLink,
-    localsDescription
+    localsDescription,
+    videoEmbed,
+    videoSearchURL
 }) {
     useEffect(() => {
         window.onload = function setVideoPhrase() {
-            document.getElementById('videoPhrase').innerHTML = videoPhrase;
+            document.getElementById('videoEmbed').innerHTML = videoEmbed;
         };
     });
+
     return (
         <div>
             <p className="mb-2">
@@ -39,7 +41,10 @@ export default function SurfSpotSection({
             <p className="mb-2">
                 The best time of year to surf {title} {bestMonthsPhrase}.
             </p>
-            <div id="videoPhrase"></div>
+            <p class="mb-3">Watch this video of {titleContraction} surf to get a better feel for what the waves are like.</p>
+            <div id="videoEmbed"></div>
+            <p class="mb-3"> Remember, this is just one day. Always check the surf report before going.</p>
+            <p class="mb-2">You can <a href={videoSearchURL} target="_blank">watch videos of {titleContraction} surf here</a>.</p>
             <p className="mb-2">
                 Here is{' '}
                 <a href={forecastLink} target="_blank" rel="noreferrer">

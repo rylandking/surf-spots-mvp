@@ -44,10 +44,10 @@ export default function PostLayout(props) {
     let forecastLink = page.forecastLink;
     let forecastPhrase;
     let videoLink = page.videoLink;
-    let youTubeID;
-    let videoEmbed;
-    let videoSearchURL;
-    let videoPhrase;
+
+
+
+
 
     let jan = Number(page.jan);
     let feb = Number(page.feb);
@@ -299,32 +299,6 @@ export default function PostLayout(props) {
         bestMonthsPhrase = `is in ${bestMonths[0]}, ${bestMonths[1]}, ${bestMonths[2]}, ${bestMonths[3]}, ${bestMonths[4]}, ${bestMonths[5]}, ${bestMonths[6]}, ${bestMonths[7]}, ${bestMonths[8]}, and ${bestMonths[9]}`;
     }
 
-    // Set video phrase
-    if (videoLink) {
-        if (videoLink.includes('youtu.be')) {
-            youTubeID = videoLink.split('.be/')[1];
-            youTubeID = youTubeID.split('?')[0];
-        } else {
-            youTubeID = videoLink.split('v=')[1];
-        }
-
-        videoEmbed = `<iframe class="mb-3" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
-
-        videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
-
-        videoPhrase = `
-            <p class="mb-3">Watch this video of ${titleContraction} surf to get a better feel for what the waves are like.</p>
-            ${videoEmbed}
-            <p class="mb-3"> Remember, this is just one day. Always check the surf report before going. You can <a href="${videoSearchURL}" target="_blank">watch other videos of ${titleContraction} surf here</a>.</p>
-        `;
-    } else {
-        videoSearchURL = `https://www.google.com/search?q=${title}&tbm=vid`;
-
-        videoPhrase = `
-      <p class="mb-2">You can <a href="${videoSearchURL}" target="_blank">watch videos of ${titleContraction} surf here</a>.</p>
-    `;
-    }
-
     // Set forecastPhrase
     if (forecastLink.includes('magicseaweed')) {
         forecastPhrase = 'Magicseaweed';
@@ -336,6 +310,25 @@ export default function PostLayout(props) {
         forecastPhrase = 'Shaka Bay';
     } else if (forecastLink.includes('yosurfer')) {
         forecastPhrase = 'Yo Surfer';
+    }
+
+    // Set video stuff
+    let youTubeID;
+    let videoEmbed;
+    let videoSearchURL;
+
+    // Set video phrase
+    if (videoLink) {
+        if (videoLink.includes('youtu.be')) {
+            youTubeID = videoLink.split('.be/')[1];
+            youTubeID = youTubeID.split('?')[0];
+        } else {
+            youTubeID = videoLink.split('v=')[1];
+        }
+        videoEmbed = `<iframe class="mb-3" width="560" height="315" src="https://www.youtube-nocookie.com/embed/${youTubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+        videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
+    } else {
+        videoSearchURL = `https://www.google.com/search?q=${title}%20surf&tbm=vid`;
     }
 
     return (
@@ -359,11 +352,12 @@ export default function PostLayout(props) {
                             starsDesc={starsDesc}
                             skill={skill}
                             bestMonthsPhrase={bestMonthsPhrase}
-                            videoPhrase={videoPhrase}
                             forecastLink={forecastLink}
                             forecastPhrase={forecastPhrase}
                             directionsLink={directionsLink}
                             localsDescription={localsDescription}
+                            videoEmbed={videoEmbed}
+                            videoSearchURL={videoSearchURL}
                         />
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="max-w-screen-md mx-auto sb-markdown" data-sb-field-path="markdown_content">
