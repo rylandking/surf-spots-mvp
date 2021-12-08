@@ -53,7 +53,7 @@ export default function SurfSpotSection({
             </p>
             <div>
                 <h3 className="mt-6 mb-2">Local Description of Surfing {title}</h3>
-                <p className="mb-2">{(localsDescription.length > 20) ? { localsDescription } : `Email me to add a detailed description.`}</p>
+                <p className="mb-2">{localsDescription.length > 20 ? { localsDescription } : `Email me to add a detailed description.`}</p>
                 <h3 className="mt-6 mb-2">Want something specific?</h3>
             </div>
             <p className="mb-2">I have more info in my database. Please email me (heyryland @ gmail) what else would be helpful.</p>
