@@ -41,10 +41,16 @@ export default function SurfSpotSection({
             <p className="mb-2">
                 The best time of year to surf {title} {bestMonthsPhrase}.
             </p>
-            <p class="mb-3">Watch this video of {titleContraction} surf to get a better feel for what the waves are like.</p>
+            <p className="mb-3">Watch this video of {titleContraction} surf to get a better feel for what the waves are like.</p>
             <div id="videoEmbed"></div>
-            <p class="mb-3"> Remember, this is just one day. Always check the surf report before going.</p>
-            <p class="mb-2">You can <a href={videoSearchURL} target="_blank">watch videos of {titleContraction} surf here</a>.</p>
+            <p className="mb-3"> Remember, this is just one day. Always check the surf report before going.</p>
+            <p className="mb-2">
+                You can{' '}
+                <a href={videoSearchURL} target="_blank" rel="noreferrer">
+                    watch videos of {titleContraction} surf here
+                </a>
+                .
+            </p>
             <p className="mb-2">
                 Here is{' '}
                 <a href={forecastLink} target="_blank" rel="noreferrer">

@@ -45,10 +45,6 @@ export default function PostLayout(props) {
     let forecastPhrase;
     let videoLink = page.videoLink;
 
-
-
-
-
     let jan = Number(page.jan);
     let feb = Number(page.feb);
     let mar = Number(page.mar);
