@@ -27,6 +27,8 @@ export default function SurfSpotSection({
             document.getElementById('videoEmbed').innerHTML = videoEmbed;
         };
     });
+    console.log(localsDescription);
+
 
     return (
         <div>
